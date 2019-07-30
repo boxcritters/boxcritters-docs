@@ -1,11 +1,13 @@
 
 # World
-The current session housing notably the current player and the room they're in
+The current session housing notably the current player and the room they're in.
+
 Parameter|Type
 ---|---
 t|[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) \| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 e|[Socket](https://socket.io/docs/client-api/#Socket)
 i|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
 ## Properties
 ### .events
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
@@ -32,16 +34,19 @@ Parameter|Type
 ---|---
 i|[Socket](https://socket.io/docs/client-api/#Socket)
 o|[World](/World)
+
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .sendMessage(t)
 Parameter|Type|Description
 ---|---|---
 t|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|Message Text
+
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .login(t)
 Parameter|Type|Description
 ---|---|---
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Login Ticket
+
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .logout()
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
@@ -49,11 +54,13 @@ Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 Parameter|Type|Description
 ---|---|---
 t|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|RoomID
+
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .addRoom(t)
 Parameter|Type|Description
 ---|---|---
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Room Creation Data
+
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .removeRoom()
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
@@ -69,6 +76,7 @@ Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 Parameter|Type|Description
 ---|---|---
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Unused in the function
+
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .removeMenu()
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
