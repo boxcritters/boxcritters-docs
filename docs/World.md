@@ -2,17 +2,24 @@
 # World
 The current session housing notably the current player and the room they're in.
 
-Parameter|Type
----|---
+Parameter|Type|Description
+---|---|---
 t|[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) \| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 e|[Socket](https://socket.io/docs/client-api/#Socket)
 i|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## Properties
+### .settings
+Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+Property|Type|Description
+---|---|---
+.settings.lobby|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|Starting RoomID
+
 ### .events
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 ### .player
-Type: [Player](/Player)
+Type: [Player](Player)
 ### .critters
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 ### .items
@@ -20,20 +27,20 @@ Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 ### .stage
 Type: [Stage](https://www.createjs.com/docs/easeljs/classes/Stage.html)
 ### .room
-Type: [Room](/Room)
+Type: [Room](Room)
 ### .socket
 Type: [Socket](https://socket.io/docs/client-api/#Socket)
 ### .chat
-Type: [Chat](/Chat)
+Type: [Chat](Chat)
 ### .code
-Type: [Code](/Code)
+Type: [Code](Code)
 
 ## Methods
 ### .handleSocket(i, o)
-Parameter|Type
----|---
+Parameter|Type|Description
+---|---|---
 i|[Socket](https://socket.io/docs/client-api/#Socket)
-o|[World](/World)
+o|[World](World)
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .sendMessage(t)
