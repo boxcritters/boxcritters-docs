@@ -5,6 +5,7 @@ Parameter|Type|Description
 ---|---|---
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 e|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
 ## Properties
 ### .socket
 Type: [Socket](https://socket.io/docs/client-api/#Socket)
