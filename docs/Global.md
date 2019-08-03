@@ -38,6 +38,9 @@ boot
 
 uxData
 
+## LocalStorageVariables
+`"playerId"` - from `myPlayer.playerId`.
+
 ## Global Functions
 onresize()
 
@@ -54,6 +57,11 @@ handleKeypress(e)
 sendMessage()
 
 toggleDarkmode()
+
+## Incoming Sockets
+[`"updatePlayer"`](socket/in/updatePlayer)
+
+[`"playerData"`](socket/in/playerData)
 
 ## Global Classes
 ###  BoxCritters
