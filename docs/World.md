@@ -7,68 +7,68 @@ t|[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanva
 e|[Socket](https://socket.io/docs/client-api/#Socket)
 i|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
-# Properties
-## .settings
+## Properties
+### .settings
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 Property|Type|Description
 ---|---|---
 .settings.lobby|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|Starting RoomID
 
-## .events
+### .events
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-## .player
+### .player
 Type: [Player](Player)
-## .critters
+### .critters
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-## .items
+### .items
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-## .stage
+### .stage
 Type: [Stage](https://www.createjs.com/docs/easeljs/classes/Stage.html)
-## .room
+### .room
 Type: [Room](Room)
-## .socket
+### .socket
 Type: [Socket](https://socket.io/docs/client-api/#Socket)
-## .chat
+### .chat
 Type: [Chat](Chat)
 ## .code
 Type: [Code](Code)
 
-# Methods
-## .handleSocket(i, o)
+## Methods
+### .handleSocket(i, o)
 Parameter|Type|Description
 ---|---|---
 i|[Socket](https://socket.io/docs/client-api/#Socket)
 o|[World](World)
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .sendMessage(t)
+### .sendMessage(t)
 Parameter|Type|Description
 ---|---|---
 t|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|Message Text
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .login(t)
+### .login(t)
 Parameter|Type|Description
 ---|---|---
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Login Ticket
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .logout()
+### .logout()
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .joinRoom(t)
+### .joinRoom(t)
 Parameter|Type|Description
 ---|---|---
 t|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|RoomID
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .addRoom(t)
+### .addRoom(t)
 Parameter|Type|Description
 ---|---|---
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Room Creation Data
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .removeRoom()
+### .removeRoom()
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .addMenu(t)
 
@@ -84,5 +84,5 @@ Parameter|Type|Description
 t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Unused in the function
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-## .removeMenu()
+### .removeMenu()
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
