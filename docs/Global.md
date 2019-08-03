@@ -1,4 +1,4 @@
-# Global
+<h1>Global</h1>
 ## Global Variables
 socket
 

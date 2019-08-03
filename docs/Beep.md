@@ -1,4 +1,4 @@
-# Beep
+<h1>Beep</h1>
 Description
 
 Parameter|Type|Description

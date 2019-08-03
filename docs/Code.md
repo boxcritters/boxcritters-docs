@@ -1,4 +1,4 @@
-# Code
+<h1>Code</h1>
 Class for handling commands and item codes.
 
 Parameter|Type|Description
