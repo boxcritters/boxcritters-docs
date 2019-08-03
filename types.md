@@ -1,14 +1,14 @@
 # Referenced Types
 ##  BoxCritters
-[Player](Player)
+[Player](../Player)
 
-[Room](Room)
+[Room](../Room)
 
-[Chat](Chat)
+[Chat](../Chat)
 
-[Code](Code)
+[Code](../Code)
 
-[World](World)
+[World](../World)
 
 ## Create.js
 [createjs.Container](https://www.createjs.com/docs/easeljs/classes/Container.html)

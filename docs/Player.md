@@ -86,8 +86,8 @@ Parameter|Type|Description
 t|[Socket](https://socket.io/docs/client-api/#Socket)
 
 Reacts to Sockets:
-* [`"updatePlayer"`](socket/in/updatePlayer)
-* [`"playerData"`](socket/in/playerData)
+* [`"updatePlayer"`](../Socket/in/updatePlayer)
+* [`"playerData"`](../Socket/in/playerData)
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .updateData(t)

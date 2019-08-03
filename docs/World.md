@@ -18,7 +18,7 @@ Property|Type|Description
 ### .events
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 ### .player
-Type: [Player](Player)
+Type: [Player](../Player)
 ### .critters
 Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 ### .items
@@ -26,20 +26,20 @@ Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 ### .stage
 Type: [Stage](https://www.createjs.com/docs/easeljs/classes/Stage.html)
 ### .room
-Type: [Room](Room)
+Type: [Room](../Room)
 ### .socket
 Type: [Socket](https://socket.io/docs/client-api/#Socket)
 ### .chat
-Type: [Chat](Chat)
+Type: [Chat](../Chat)
 ## .code
-Type: [Code](Code)
+Type: [Code](../Code)
 
 ## Methods
 ### .handleSocket(i, o)
 Parameter|Type|Description
 ---|---|---
 i|[Socket](https://socket.io/docs/client-api/#Socket)
-o|[World](World)
+o|[World](../World)
 
 Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ### .sendMessage(t)

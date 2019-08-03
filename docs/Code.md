@@ -4,13 +4,13 @@ Class for handling commands and item codes.
 Parameter|Type|Description
 ---|---|---
 t|[Socket](https://socket.io/docs/client-api/#Socket)
-e|[World](World)
+e|[World](../World)
 
 ## Properties
 ### .socket
 Type: [Socket](https://socket.io/docs/client-api/#Socket)
 ### .world
-Type: [World](World)
+Type: [World](../World)
 
 ## Methods
 ### .sendCode(t)

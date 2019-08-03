@@ -10,7 +10,7 @@ e|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glo
 ### .socket
 Type: [Socket](https://socket.io/docs/client-api/#Socket)
 ### .world
-Type: [World](World)
+Type: [World](../World)
 ### .mc
 type: [createjs.Container](https://www.createjs.com/docs/easeljs/classes/Container.html)
 
