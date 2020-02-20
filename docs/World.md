@@ -1,88 +1,332 @@
-<h1>World</h1>
-The current session housing notably the current player and the room they're in.
+<a name="World"></a>
 
-Parameter|Type|Description
----|---|---
-t|[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) \| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-e|[Socket](https://socket.io/docs/client-api/#Socket)
-i|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+## World ⇐ [<code>GameObject</code>](#GameObject)
+**Kind**: global class  
+**Extends**: [<code>GameObject</code>](#GameObject)  
+**Properties**
 
-## Properties
-### .settings
-Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+| Name | Type |
+| --- | --- |
+| player | [<code>Player</code>](#Player) | 
+| room | [<code>Room</code>](#Room) | 
+| data | <code>\*</code> | 
+| data.settings | <code>\*</code> | 
+| data.critters | <code>Array.&lt;Critter&gt;</code> | 
 
-Property|Type|Description
----|---|---
-.settings.lobby|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|Starting RoomID
 
-### .events
-Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-### .player
-Type: [Player](../Player)
-### .critters
-Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-### .items
-Type: [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-### .stage
-Type: [Stage](https://www.createjs.com/docs/easeljs/classes/Stage.html)
-### .room
-Type: [Room](../Room)
-### .socket
-Type: [Socket](https://socket.io/docs/client-api/#Socket)
-### .chat
-Type: [Chat](../Chat)
-## .code
-Type: [Code](../Code)
+* [World](#World) ⇐ [<code>GameObject</code>](#GameObject)
+    * [new World(t)](#new_World_new)
+    * [.updateData(t, e)](#World+updateData)
+    * [.getData(t)](#World+getData)
+    * [.getItemData(t)](#World+getItemData)
+    * [.getCritterData(t)](#World+getCritterData)
+    * [.updatePlayer(t)](#World+updatePlayer)
+    * [.getPlayer()](#World+getPlayer)
+    * [.handleSocket()](#World+handleSocket)
+    * [.handleLogin(t)](#World+handleLogin)
+    * [.handleJoinRoom(t)](#World+handleJoinRoom)
+    * [.login(t)](#World+login)
+    * [.logout()](#World+logout)
+    * [.joinRoom(t)](#World+joinRoom)
+    * [.sendMessage(t)](#World+sendMessage)
+    * [.sendCode(t)](#World+sendCode)
+    * [.sendMove(t, e)](#World+sendMove)
+    * [.sendTrigger()](#World+sendTrigger)
+    * [.updateData(t, e)](#World+updateData)
+    * [.getData(t)](#World+getData)
+    * [.getItemData(t)](#World+getItemData)
+    * [.getCritterData(t)](#World+getCritterData)
+    * [.updatePlayer(t)](#World+updatePlayer)
+    * [.getPlayer()](#World+getPlayer)
+    * [.handleSocket()](#World+handleSocket)
+    * [.handleLogin(t)](#World+handleLogin)
+    * [.handleJoinRoom(t)](#World+handleJoinRoom)
+    * [.login(t)](#World+login)
+    * [.logout()](#World+logout)
+    * [.joinRoom(t)](#World+joinRoom)
+    * [.sendMessage(t)](#World+sendMessage)
+    * [.sendCode(t)](#World+sendCode)
+    * [.sendMove(t, e)](#World+sendMove)
+    * [.sendTrigger()](#World+sendTrigger)
+    * [.on(t, e)](#GameObject+on)
+    * [.emit(t)](#GameObject+emit)
 
-## Methods
-### .handleSocket(i, o)
-Parameter|Type|Description
----|---|---
-i|[Socket](https://socket.io/docs/client-api/#Socket)
-o|[World](../World)
+<a name="new_World_new"></a>
 
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .sendMessage(t)
-Parameter|Type|Description
----|---|---
-t|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|Message Text
+### new World(t)
 
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .login(t)
-Parameter|Type|Description
----|---|---
-t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Login Ticket
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
 
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .logout()
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .joinRoom(t)
-Parameter|Type|Description
----|---|---
-t|[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|RoomID
+<a name="World+updateData"></a>
 
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .addRoom(t)
-Parameter|Type|Description
----|---|---
-t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Room Creation Data
+### world.updateData(t, e)
+**Kind**: instance method of [<code>World</code>](#World)  
 
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .removeRoom()
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .addMenu(t)
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+| e | <code>\*</code> | 
 
-<div class="admonition attention">
-    <p class="first admonition-title">Attention</p>
-    <p class="last">
-        The `t` paramater in this function is seemingly not used. Perhaps rocket snail may use it in the future for Menu creation data.
-    </p>
-</div>
+<a name="World+getData"></a>
 
-Parameter|Type|Description
----|---|---
-t|[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)|Unused in the function
+### world.getData(t)
+**Kind**: instance method of [<code>World</code>](#World)  
 
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-### .removeMenu()
-Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+getItemData"></a>
+
+### world.getItemData(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+getCritterData"></a>
+
+### world.getCritterData(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+updatePlayer"></a>
+
+### world.updatePlayer(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+getPlayer"></a>
+
+### world.getPlayer()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+handleSocket"></a>
+
+### world.handleSocket()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+handleLogin"></a>
+
+### world.handleLogin(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+handleJoinRoom"></a>
+
+### world.handleJoinRoom(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+login"></a>
+
+### world.login(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+logout"></a>
+
+### world.logout()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+joinRoom"></a>
+
+### world.joinRoom(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+sendMessage"></a>
+
+### world.sendMessage(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+sendCode"></a>
+
+### world.sendCode(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+sendMove"></a>
+
+### world.sendMove(t, e)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+| e | <code>\*</code> | 
+
+<a name="World+sendTrigger"></a>
+
+### world.sendTrigger()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+updateData"></a>
+
+### world.updateData(t, e)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+| e | <code>\*</code> | 
+
+<a name="World+getData"></a>
+
+### world.getData(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+getItemData"></a>
+
+### world.getItemData(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+getCritterData"></a>
+
+### world.getCritterData(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+updatePlayer"></a>
+
+### world.updatePlayer(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+getPlayer"></a>
+
+### world.getPlayer()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+handleSocket"></a>
+
+### world.handleSocket()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+handleLogin"></a>
+
+### world.handleLogin(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+handleJoinRoom"></a>
+
+### world.handleJoinRoom(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+login"></a>
+
+### world.login(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+logout"></a>
+
+### world.logout()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="World+joinRoom"></a>
+
+### world.joinRoom(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+sendMessage"></a>
+
+### world.sendMessage(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+sendCode"></a>
+
+### world.sendCode(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
+<a name="World+sendMove"></a>
+
+### world.sendMove(t, e)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+| e | <code>\*</code> | 
+
+<a name="World+sendTrigger"></a>
+
+### world.sendTrigger()
+**Kind**: instance method of [<code>World</code>](#World)  
+<a name="GameObject+on"></a>
+
+### world.on(t, e)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+| e | <code>\*</code> | 
+
+<a name="GameObject+emit"></a>
+
+### world.emit(t)
+**Kind**: instance method of [<code>World</code>](#World)  
+
+| Param | Type |
+| --- | --- |
+| t | <code>\*</code> | 
+
