@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Box Critters Docs'
-copyright = u'2020, BCMC'
+copyright = u'2019-2020, BCMC'
 author = u'BCMC'
 
 # The short X.Y version
@@ -39,7 +39,6 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_markdown_tables',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,8 +47,8 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-source_suffix = ['.rst', '.md']
-#source_suffix = '.md'
+#source_suffix = ['.rst', '.txt']
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
@@ -172,9 +171,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
-# -- Extension configuration -------------------------------------------------
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
-}
