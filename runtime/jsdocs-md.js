@@ -16,6 +16,8 @@ const classNames = templateData.reduce((classNames, identifier) => {
   return classNames
 }, [])
 
+
+
 /* create a documentation file for each class */
 for (const className of classNames) {
   const template = `{{#class name="${className}"}}{{>docs}}{{/class}}`
