@@ -5,7 +5,6 @@
 
 Welcome to Box Critters's documentation!
 ========================================
-if i am deleted, tell someone
 
 .. toctree::
    :maxdepth: 2
