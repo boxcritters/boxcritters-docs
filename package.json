@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "jsdoc -t node_modules/jsdoc-sphinx/template -d docs client155.min.js"
+    "docs": "jsdoc -t template -d docs client155.min.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "jsdoc": "^3.6.3"
   },
   "dependencies": {
-    "jsdoc-sphinx": "0.0.6"
+    "jsdoc-sphinx": "0.0.6",
+    "jsdoc-to-markdown": "^5.0.3"
   }
 }
