@@ -170,6 +170,33 @@ Function: ``handleStop``
 
     
     
+.. _Player.on:
+
+
+Function: ``on``
+================
+
+
+
+.. js:function:: on(t, e)
+
+    
+    :param * t: 
+    :param * e: 
+    
+.. _Player.emit:
+
+
+Function: ``emit``
+==================
+
+
+
+.. js:function:: emit(t)
+
+    
+    :param * t: 
+    
 
 .. _Player.playerId:
 

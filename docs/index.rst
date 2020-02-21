@@ -1,24 +1,7 @@
-.. Box Critters documentation master file, created by
-   sphinx-quickstart on Fri Feb 21 18:22:26 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Box Critters's documentation!
-========================================
-if i am deleted, tell someone
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 
 Contents
@@ -58,6 +41,14 @@ README
 ------------------------
 
 /**
+ * @external createjs.Container
+ * @see {@link https://www.createjs.com/docs/easeljs/classes/Container.html}
+ * @external Socket
+ * @see {@link https://socket.io/docs/client-api/#Socket}
+ */
+
+
+/**
  * @class
  * @constructor
  * @property {*} _events
@@ -66,6 +57,7 @@ function GameObject() {
   this._events = {};
 }
 /**
+ * The current session housing notably the current player and the room they're in.
  * @class
  * @constructor
  * @extends {GameObject}
@@ -188,6 +180,7 @@ function Map(t) {
 /**
  * @class
  * @constructor
+ * @extends GameObject
  * @param {*} t 
  */
 function Player(t) {
@@ -236,6 +229,7 @@ function Room(t) {
 /**
  * @class
  * @constructor
+ * @extends {createjs.Container}
  * @param {*} t 
  */
 function AssetContainer(t) {
@@ -486,6 +480,7 @@ function CritterContainer(t) {
 /**
  * @class
  * @constructor
+ * @extends {createjs.Container}
  * @param {*} t 
  * @param {*} e 
  * @param {*} i 

@@ -16,7 +16,7 @@ Children
 Description
 ===========
 
-
+The current session housing notably the current player and the room they're in.
 
 
 .. _World.updateData:
