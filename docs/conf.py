@@ -22,7 +22,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = u'Box Critters'
-copyright = u'2020, RocketSnail'
+#copyright = u'2020, RocketSnail'
 author = u'Docs by BCMC
 
 # The short X.Y version
