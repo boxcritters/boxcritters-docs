@@ -9,6 +9,14 @@
 :type {{name}}: {{#type.names}}{{.}}{{/type.names}}
 {{/doclet.params}}
 
+.. list-tables::
+    :header-rows: 1
+{{#doclet.params}}
+    * - {{name}}
+	  - {{#type.names}}{{.}}{{/type.names}}
+	  - {{description}}
+{{/doclet.params}}
+
 .. list-table::
    :header-rows: 1
 

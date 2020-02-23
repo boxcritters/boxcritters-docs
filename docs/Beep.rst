@@ -8,6 +8,15 @@ Beep
 :param e: 
 :type e: *
 
+.. list-tables::
+    :header-rows: 1
+    * - t
+	  - *
+	  - 
+    * - e
+	  - *
+	  - 
+
 .. list-table::
    :header-rows: 1
 

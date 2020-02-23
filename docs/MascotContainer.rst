@@ -6,6 +6,12 @@ MascotContainer
 :param t: 
 :type t: *
 
+.. list-tables::
+    :header-rows: 1
+    * - t
+	  - *
+	  - 
+
 .. list-table::
    :header-rows: 1
 

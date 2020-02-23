@@ -7,7 +7,10 @@ Welcome to Box Critters's documentation!
 
    
    :caption: Modules
+   
+   
    :caption: Classes
+   
    GameObject
    World
    Crumb
@@ -31,7 +34,9 @@ Welcome to Box Critters's documentation!
    Background
    CoinsWidget
    Beep
+   
    :caption: Namespaces
+   
    
 Indices and tables
 ==================

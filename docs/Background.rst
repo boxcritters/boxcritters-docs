@@ -4,6 +4,9 @@ Background
 
 
 
+.. list-tables::
+    :header-rows: 1
+
 .. list-table::
    :header-rows: 1
 
