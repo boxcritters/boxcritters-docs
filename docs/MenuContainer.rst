@@ -1,39 +1,39 @@
-doclet.rst.mustache
-========================
-Class: ``MenuContainer``
-========================
-extends 
+=============
+MenuContainer
+=============
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
+-------
 
-_member.mustache
-.. _MenuContainer.e:
+.method(a)
+^^^^^^^^^^
 
-Member: ``e``: 
-_member.mustache
-.. _MenuContainer.i:
+.. list-table::
+   :header-rows: 1
 
-Member: ``i``: 
-_member.mustache
-.. _MenuContainer.o:
-
-Member: ``o``: 
-
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

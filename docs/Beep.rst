@@ -1,62 +1,40 @@
-doclet.rst.mustache
-===============
-Class: ``Beep``
-===============
-extends 
+====
+Beep
+====
 
 
+:param t: 
+:param e: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _Beep.handleSocket:
+-------
 
-Function: ``handleSocket``
---------------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: handleSocket()
+.. list-table::
+   :header-rows: 1
 
-    
-    _function.mustache
-.. _Beep.addMessage:
-
-Function: ``addMessage``
-------------------------
-
-.. js:function:: addMessage()
-
-    
-    _function.mustache
-.. _Beep.showScreen:
-
-Function: ``showScreen``
-------------------------
-
-.. js:function:: showScreen()
-
-    
-    
-_member.mustache
-.. _Beep.width:
-
-Member: ``width``: 
-_member.mustache
-.. _Beep.height:
-
-Member: ``height``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

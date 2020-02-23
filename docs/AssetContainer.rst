@@ -1,72 +1,39 @@
-doclet.rst.mustache
-=========================
-Class: ``AssetContainer``
-=========================
-extends :doc:`createjs.Container<./createjs.Container>`
+==============
+AssetContainer
+==============
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _AssetContainer.showEdit:
+-------
 
-Function: ``showEdit``
-----------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: showEdit()
+.. list-table::
+   :header-rows: 1
 
-    
-    
-_member.mustache
-.. _AssetContainer.data:
-
-Member: ``data``: 
-_member.mustache
-.. _AssetContainer.name:
-
-Member: ``name``: 
-_member.mustache
-.. _AssetContainer.name:
-
-Member: ``name``: 
-_member.mustache
-.. _AssetContainer.x:
-
-Member: ``x``: 
-_member.mustache
-.. _AssetContainer.y:
-
-Member: ``y``: 
-_member.mustache
-.. _AssetContainer.edit:
-
-Member: ``edit``: 
-_member.mustache
-.. _AssetContainer.hitArea:
-
-Member: ``hitArea``: 
-_member.mustache
-.. _AssetContainer.regX:
-
-Member: ``regX``: 
-_member.mustache
-.. _AssetContainer.regY:
-
-Member: ``regY``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

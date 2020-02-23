@@ -1,113 +1,39 @@
-doclet.rst.mustache
-===========================
-Class: ``MonsterContainer``
-===========================
-extends 
+================
+MonsterContainer
+================
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _MonsterContainer.updateDirection:
+-------
 
-Function: ``updateDirection``
------------------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: updateDirection()
+.. list-table::
+   :header-rows: 1
 
-    
-    _function.mustache
-.. _MonsterContainer.addItem:
-
-Function: ``addItem``
----------------------
-
-.. js:function:: addItem()
-
-    
-    _function.mustache
-.. _MonsterContainer.removeItem:
-
-Function: ``removeItem``
-------------------------
-
-.. js:function:: removeItem()
-
-    
-    _function.mustache
-.. _MonsterContainer.updateGear:
-
-Function: ``updateGear``
-------------------------
-
-.. js:function:: updateGear()
-
-    
-    _function.mustache
-.. _MonsterContainer.updateState:
-
-Function: ``updateState``
--------------------------
-
-.. js:function:: updateState()
-
-    
-    _function.mustache
-.. _MonsterContainer.remove:
-
-Function: ``remove``
---------------------
-
-.. js:function:: remove()
-
-    
-    
-_member.mustache
-.. _MonsterContainer.scaleX:
-
-Member: ``scaleX``: 
-_member.mustache
-.. _MonsterContainer.scaleY:
-
-Member: ``scaleY``: 
-_member.mustache
-.. _MonsterContainer.framerate:
-
-Member: ``framerate``: 
-_member.mustache
-.. _MonsterContainer.loop:
-
-Member: ``loop``: 
-_member.mustache
-.. _MonsterContainer.currentDirection:
-
-Member: ``currentDirection``: 
-_member.mustache
-.. _MonsterContainer.e:
-
-Member: ``e``: 
-_member.mustache
-.. _MonsterContainer.sprite:
-
-Member: ``sprite``: 
-_member.mustache
-.. _MonsterContainer.currentDirection:
-
-Member: ``currentDirection``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

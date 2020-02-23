@@ -1,99 +1,39 @@
-doclet.rst.mustache
-===============
-Class: ``Room``
-===============
-extends 
+====
+Room
+====
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _Room.addPlayer:
+-------
 
-Function: ``addPlayer``
------------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: addPlayer(t)
+.. list-table::
+   :header-rows: 1
 
-    
-    :param * t: 
-    _function.mustache
-.. _Room.getPlayer:
-
-Function: ``getPlayer``
------------------------
-
-.. js:function:: getPlayer(t)
-
-    
-    :param * t: 
-    _function.mustache
-.. _Room.removePlayer:
-
-Function: ``removePlayer``
---------------------------
-
-.. js:function:: removePlayer(t)
-
-    
-    :param * t: 
-    _function.mustache
-.. _Room.updatePlayer:
-
-Function: ``updatePlayer``
---------------------------
-
-.. js:function:: updatePlayer(t)
-
-    
-    :param * t: 
-    
-_member.mustache
-.. _Room.roomId:
-
-Member: ``roomId``: 
-_member.mustache
-.. _Room.name:
-
-Member: ``name``: 
-_member.mustache
-.. _Room.players:
-
-Member: ``players``: 
-_member.mustache
-.. _Room.layers:
-
-Member: ``layers``: 
-_member.mustache
-.. _Room.map:
-
-Member: ``map``: 
-_member.mustache
-.. _Room.e:
-
-Member: ``e``: 
-_member.mustache
-.. _Room.i:
-
-Member: ``i``: 
-_member.mustache
-.. _Room.players[undefined]:
-
-Member: ``players[undefined]``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

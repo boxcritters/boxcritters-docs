@@ -1,76 +1,40 @@
-doclet.rst.mustache
-========================
-Class: ``BeepContainer``
-========================
-extends 
+=============
+BeepContainer
+=============
 
 
+:param t: 
+:param e: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _BeepContainer.show:
+-------
 
-Function: ``show``
-------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: show(t)
+.. list-table::
+   :header-rows: 1
 
-    
-    :param * t: 
-    _function.mustache
-.. _BeepContainer.alert:
-
-Function: ``alert``
--------------------
-
-.. js:function:: alert(t, e)
-
-    
-    :param * t: 
-    :param * e: 
-    _function.mustache
-.. _BeepContainer.message:
-
-Function: ``message``
----------------------
-
-.. js:function:: message(t)
-
-    
-    :param * t: 
-    _function.mustache
-.. _BeepContainer.grant:
-
-Function: ``grant``
--------------------
-
-.. js:function:: grant(t)
-
-    
-    :param * t: 
-    
-_member.mustache
-.. _BeepContainer.width:
-
-Member: ``width``: 
-_member.mustache
-.. _BeepContainer.height:
-
-Member: ``height``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

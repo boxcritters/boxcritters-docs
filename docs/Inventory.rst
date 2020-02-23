@@ -1,92 +1,39 @@
-doclet.rst.mustache
-====================
-Class: ``Inventory``
-====================
-extends 
+=========
+Inventory
+=========
 
 
+:param e: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _Inventory.close:
+-------
 
-Function: ``close``
--------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: close()
+.. list-table::
+   :header-rows: 1
 
-    
-    
-_member.mustache
-.. _Inventory.i:
-
-Member: ``i``: 
-_member.mustache
-.. _Inventory.player:
-
-Member: ``player``: 
-_member.mustache
-.. _Inventory.t:
-
-Member: ``t``: 
-_member.mustache
-.. _Inventory.o:
-
-Member: ``o``: 
-_member.mustache
-.. _Inventory.s:
-
-Member: ``s``: 
-_member.mustache
-.. _Inventory.a:
-
-Member: ``a``: 
-_member.mustache
-.. _Inventory.r:
-
-Member: ``r``: 
-_member.mustache
-.. _Inventory.n:
-
-Member: ``n``: 
-_member.mustache
-.. _Inventory.h:
-
-Member: ``h``: 
-_member.mustache
-.. _Inventory.c:
-
-Member: ``c``: 
-_member.mustache
-.. _Inventory.l:
-
-Member: ``l``: 
-_member.mustache
-.. _Inventory.d:
-
-Member: ``d``: 
-_member.mustache
-.. _Inventory.p:
-
-Member: ``p``: 
-_member.mustache
-.. _Inventory.f:
-
-Member: ``f``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

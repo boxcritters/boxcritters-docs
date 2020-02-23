@@ -1,73 +1,39 @@
-doclet.rst.mustache
-================
-Class: ``Crumb``
-================
-extends 
+=====
+Crumb
+=====
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _Crumb.get:
+-------
 
-Function: ``get``
------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: get(t)
+.. list-table::
+   :header-rows: 1
 
-    
-    :param * t: 
-    
-_member.mustache
-.. _Crumb.playerId:
-
-Member: ``playerId``: 
-_member.mustache
-.. _Crumb.nickname:
-
-Member: ``nickname``: 
-_member.mustache
-.. _Crumb.critterId:
-
-Member: ``critterId``: 
-_member.mustache
-.. _Crumb.gear:
-
-Member: ``gear``: 
-_member.mustache
-.. _Crumb.rotation:
-
-Member: ``rotation``: 
-_member.mustache
-.. _Crumb.speed:
-
-Member: ``speed``: 
-_member.mustache
-.. _Crumb.x:
-
-Member: ``x``: 
-_member.mustache
-.. _Crumb.y:
-
-Member: ``y``: 
-_member.mustache
-.. _Crumb.z:
-
-Member: ``z``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

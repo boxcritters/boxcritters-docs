@@ -1,65 +1,39 @@
-doclet.rst.mustache
-=======================
-Class: ``MapContainer``
-=======================
-extends 
+============
+MapContainer
+============
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _MapContainer.edit:
+-------
 
-Function: ``edit``
-------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: edit()
+.. list-table::
+   :header-rows: 1
 
-    
-    _function.mustache
-.. _MapContainer.addTile:
-
-Function: ``addTile``
----------------------
-
-.. js:function:: addTile()
-
-    
-    
-_member.mustache
-.. _MapContainer.data:
-
-Member: ``data``: 
-_member.mustache
-.. _MapContainer.activeTile:
-
-Member: ``activeTile``: 
-_member.mustache
-.. _MapContainer.tiles:
-
-Member: ``tiles``: 
-_member.mustache
-.. _MapContainer.fills:
-
-Member: ``fills``: 
-_member.mustache
-.. _MapContainer.activeTile:
-
-Member: ``activeTile``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

@@ -1,50 +1,42 @@
-doclet.rst.mustache
 {{#doclet.rstReference}}
 .. _{{doclet.rstReference}}:
-
 {{/doclet.rstReference}}
-{{#h1}}{{#titlecase}}{{doclet.kind}}{{/titlecase}}: ``{{doclet.name}}``{{/h1}}
-extends {{#doclet.augments}}:doc:`{{.}}<./{{.}}>`{{/doclet.augments}}
-
+{{#h1}}{{doclet.name}}{{/h1}}
 {{doclet.description}}
 
-{{#doclet.parentRstLink}}
-Member Of :doc:`{{doclet.parentRstLink}}`
-{{/doclet.parentRstLink}}
+{{#doclet.params}}
+:param {{name}}: {{description}}
+{{/doclet.params}}
 
-.. contents:: Local Navigation
-   :local:
+.. list-table::
+   :header-rows: 1
 
-{{#h2}}Children{{/h2}}
+   * - Parameter
+     - Type
+     - Description
 
-.. toctree::
-   :maxdepth: 1
-   {{#pre}}
-   {{> toctreeChildren }}
-   {{/pre}}
+Properties
+----------
 
-{{#h2}}Methods{{/h2}}
-{{#function}}
-{{>func}}
-{{/function}}
+.property
+^^^^^^^^^
 
-{{#member}}
-{{>member}}
-{{/member}}
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
-{{#constant}}
-{{>constant}}
-{{/constant}}
+Methods
+-------
 
-{{#typedef}}
-{{>typedef}}
-{{/typedef}}
+.method(a)
+^^^^^^^^^^
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-{{#doclet.examples.length}}
-{{#h2}}Examples{{/h2}}
-
-{{/doclet.examples.length}}
-{{#doclet.examples}}
-{{#example}}{{.}}{{/example}}
-{{/doclet.examples}}
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

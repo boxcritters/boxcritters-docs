@@ -3,11 +3,10 @@ Welcome to Box Critters's documentation!
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    
-   _toctree-children.mustache
    GameObject
    World
    Crumb

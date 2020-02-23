@@ -1,85 +1,39 @@
-doclet.rst.mustache
-==============
-Class: ``Map``
-==============
-extends 
+===
+Map
+===
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _Map.getTile:
+-------
 
-Function: ``getTile``
----------------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: getTile(t, e)
+.. list-table::
+   :header-rows: 1
 
-    
-    :param * t: 
-    :param * e: 
-    _function.mustache
-.. _Map.getTrigger:
-
-Function: ``getTrigger``
-------------------------
-
-.. js:function:: getTrigger(t)
-
-    
-    :param * t: 
-    _function.mustache
-.. _Map.getLayer:
-
-Function: ``getLayer``
-----------------------
-
-.. js:function:: getLayer(t)
-
-    
-    :param * t: 
-    _function.mustache
-.. _Map.new:
-
-Function: ``new``
------------------
-
-.. js:function:: new(t, e)
-
-    
-    :param * t: 
-    :param * e: 
-    
-_member.mustache
-.. _Map.tileSize:
-
-Member: ``tileSize``: 
-_member.mustache
-.. _Map.tileMap:
-
-Member: ``tileMap``: 
-_member.mustache
-.. _Map.triggers:
-
-Member: ``triggers``: 
-_member.mustache
-.. _Map.tileMap:
-
-Member: ``tileMap``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

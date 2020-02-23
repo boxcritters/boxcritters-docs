@@ -1,56 +1,38 @@
-doclet.rst.mustache
-=====================
-Class: ``GameObject``
-=====================
-extends 
+==========
+GameObject
+==========
 
 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
-_function.mustache
-.. _GameObject.on:
+-------
 
-Function: ``on``
-----------------
+.method(a)
+^^^^^^^^^^
 
-.. js:function:: on(t, e)
+.. list-table::
+   :header-rows: 1
 
-    
-    :param * t: 
-    :param * e: 
-    _function.mustache
-.. _GameObject.emit:
-
-Function: ``emit``
-------------------
-
-.. js:function:: emit(t)
-
-    
-    :param * t: 
-    
-_member.mustache
-.. _GameObject._events:
-
-Member: ``_events``: 
-_member.mustache
-.. _GameObject._events[undefined]:
-
-Member: ``_events[undefined]``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

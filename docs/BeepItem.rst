@@ -1,51 +1,39 @@
-doclet.rst.mustache
-===================
-Class: ``BeepItem``
-===================
-extends 
-
-
-
-
-.. contents:: Local Navigation
-   :local:
-
-Children
+========
+BeepItem
 ========
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+
+:param t: 
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+
+Properties
+----------
+
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
+-------
 
-_member.mustache
-.. _BeepItem.mc:
+.method(a)
+^^^^^^^^^^
 
-Member: ``mc``: 
-_member.mustache
-.. _BeepItem.e:
+.. list-table::
+   :header-rows: 1
 
-Member: ``e``: 
-_member.mustache
-.. _BeepItem.i:
-
-Member: ``i``: 
-_member.mustache
-.. _BeepItem.o:
-
-Member: ``o``: 
-_member.mustache
-.. _BeepItem.s:
-
-Member: ``s``: 
-_member.mustache
-.. _BeepItem.a:
-
-Member: ``a``: 
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

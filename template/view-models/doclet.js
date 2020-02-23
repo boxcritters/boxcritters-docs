@@ -22,7 +22,7 @@ function docletModel(doclet) {
         example: util.example
       }
 	);
-	console.log(viewModel)
+	console.log(JSON.stringify(viewModel,null,2))
     util.view('doclet.rst', viewModel, cb);
   };
 }

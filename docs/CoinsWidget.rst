@@ -1,39 +1,38 @@
-doclet.rst.mustache
-======================
-Class: ``CoinsWidget``
-======================
-extends 
+===========
+CoinsWidget
+===========
 
 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
+-------
 
-_member.mustache
-.. _CoinsWidget.t:
+.method(a)
+^^^^^^^^^^
 
-Member: ``t``: 
-_member.mustache
-.. _CoinsWidget.e:
+.. list-table::
+   :header-rows: 1
 
-Member: ``e``: 
-_member.mustache
-.. _CoinsWidget.i:
-
-Member: ``i``: 
-
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

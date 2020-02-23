@@ -1,39 +1,39 @@
-doclet.rst.mustache
-============================
-Class: ``NicknameContainer``
-============================
-extends 
+=================
+NicknameContainer
+=================
 
 
+:param t: 
 
+.. list-table::
+   :header-rows: 1
 
-.. contents:: Local Navigation
-   :local:
+   * - Parameter
+     - Type
+     - Description
 
-Children
-========
+Properties
+----------
 
-.. toctree::
-   :maxdepth: 1
-   
-   _toctree-children.mustache
-   
+.property
+^^^^^^^^^
+
+Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Methods
-=======
+-------
 
-_member.mustache
-.. _NicknameContainer.e:
+.method(a)
+^^^^^^^^^^
 
-Member: ``e``: 
-_member.mustache
-.. _NicknameContainer.x:
+.. list-table::
+   :header-rows: 1
 
-Member: ``x``: 
-_member.mustache
-.. _NicknameContainer.y:
-
-Member: ``y``: 
-
+   * - Parameter
+     - Type
+     - Description
+   * - a
+     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
-
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
