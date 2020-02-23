@@ -4,7 +4,9 @@ PlayerContainer
 
 
 :param t: 
+:type t: *
 :param e: 
+:type e: *
 
 .. list-table::
    :header-rows: 1

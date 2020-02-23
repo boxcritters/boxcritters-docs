@@ -32,16 +32,6 @@ Welcome to Box Critters's documentation!
    CoinsWidget
    Beep
    :caption: Namespaces
-   :caption: Function
-   global.rst#calculateDist
-   global.rst#calculateA
-   global.rst#findDirec
-   global.rst#handleDepth
-   global.rst#findObjectInA
-   global.rst#removeObjectInA
-   global.rst#createBal
-   global.rst#SlotConta
-   global.rst#StageConta
    
 Indices and tables
 ==================

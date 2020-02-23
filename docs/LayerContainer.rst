@@ -4,8 +4,11 @@ LayerContainer
 
 
 :param t: 
+:type t: *
 :param e: 
+:type e: *
 :param i: 
+:type i: *
 
 .. list-table::
    :header-rows: 1

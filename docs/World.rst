@@ -4,6 +4,7 @@ World
 The current session housing notably the current player and the room they're in.
 
 :param t: 
+:type t: *
 
 .. list-table::
    :header-rows: 1

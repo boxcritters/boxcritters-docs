@@ -4,6 +4,7 @@ Inventory
 
 
 :param e: 
+:type e: *
 
 .. list-table::
    :header-rows: 1
