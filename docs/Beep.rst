@@ -3,12 +3,7 @@ Beep
 ====
 
 
-:param t: 
-:type t: *
-:param e: 
-:type e: *
-
-.. list-tables::
+.. list-tables:: table?
     :header-rows: 1
     * - t
 	  - *
@@ -17,12 +12,19 @@ Beep
 	  - *
 	  - 
 
-.. list-table::
+.. list-table:: Title
+   :widths: 25 25 50
    :header-rows: 1
 
-   * - Parameter
-     - Type
-     - Description
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
 
 Properties
 ----------
