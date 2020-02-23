@@ -5,8 +5,8 @@ Welcome to Box Critters's documentation!
 .. toctree::
    :maxdepth: 1
    
-   :caption:Modules
-   :caption:Classes
+   :caption: Modules
+   :caption: Classes
    GameObject
    World
    Crumb
@@ -30,7 +30,17 @@ Welcome to Box Critters's documentation!
    Background
    CoinsWidget
    Beep
-   :caption:Namespaces
+   :caption: Namespaces
+   :caption: Function
+   global.rst#calculateDist
+   global.rst#calculateA
+   global.rst#findDirec
+   global.rst#handleDepth
+   global.rst#findObjectInA
+   global.rst#removeObjectInA
+   global.rst#createBal
+   global.rst#SlotConta
+   global.rst#StageConta
    
 Indices and tables
 ==================
