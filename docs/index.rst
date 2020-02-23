@@ -1,8 +1,4 @@
-.. Box Critters documentation master file, created by
-   sphinx-quickstart on Sun Feb 23 15:54:56 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
+========================================
 Welcome to Box Critters's documentation!
 ========================================
 
@@ -10,8 +6,32 @@ Welcome to Box Critters's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
+   
+   _toctree-children.mustache
+   GameObject
+   World
+   Crumb
+   Map
+   Player
+   Room
+   AssetContainer
+   BalloonContainer
+   BeepContainer
+   BeepItem
+   CritterContainer
+   LayerContainer
+   MapContainer
+   MascotContainer
+   MenuContainer
+   MonsterContainer
+   NicknameContainer
+   PlayerContainer
+   RoomContainer
+   Inventory
+   Background
+   CoinsWidget
+   Beep
+   
 Indices and tables
 ==================
 
