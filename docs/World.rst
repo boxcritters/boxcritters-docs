@@ -3,8 +3,15 @@ World
 =====
 The current session housing notably the current player and the room they're in.
 
-.. list-tables:: table?
-    :header-rows: 1
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
     * - t
 	  - *
 	  - 

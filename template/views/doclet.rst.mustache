@@ -4,8 +4,15 @@
 {{#h1}}{{doclet.name}}{{/h1}}
 {{doclet.description}}
 
-.. list-tables:: table?
-    :header-rows: 1
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
 {{#doclet.params}}
     * - {{name}}
 	  - {{#type.names}}{{.}}{{/type.names}}
