@@ -4,6 +4,9 @@ doclet.rst.mustache
 
 {{/doclet.rstReference}}
 {{#h1}}{{#titlecase}}{{doclet.kind}}{{/titlecase}}: ``{{doclet.name}}``{{/h1}}
+extends {{#doclet.augments}}:doc:`{{.}}<./{{.}}>`{{/doclet.augments}}
+
+{{doclet.description}}
 
 {{#doclet.parentRstLink}}
 Member Of :doc:`{{doclet.parentRstLink}}`
@@ -20,10 +23,7 @@ Member Of :doc:`{{doclet.parentRstLink}}`
    {{> toctreeChildren }}
    {{/pre}}
 
-{{#h2}}Description{{/h2}}
-
-{{doclet.description}}
-
+{{#h2}}Methods{{/h2}}
 {{#function}}
 {{>func}}
 {{/function}}

@@ -21,11 +21,9 @@
     "url": "https://github.com/boxcritters/boxcritters-docs/issues"
   },
   "homepage": "https://github.com/boxcritters/boxcritters-docs#readme",
-  "devDependencies": {
-    "jsdoc": "^3.6.3"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "jsdoc-sphinx": "0.0.6",
-    "jsdoc-to-markdown": "^5.0.3"
+    "jsdoc": "^3.6.3",
+    "jsdoc-sphinx": "0.0.6"
   }
 }

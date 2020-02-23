@@ -1,11 +1,51 @@
+
+
+
+
+
+
+Contents
+========
+
+.. toctree::
+   :maxdepth: 1
+
+   
+   GameObject
+   World
+   Crumb
+   Map
+   Player
+   Room
+   AssetContainer
+   BalloonContainer
+   BeepContainer
+   BeepItem
+   CritterContainer
+   LayerContainer
+   MapContainer
+   MascotContainer
+   MenuContainer
+   MonsterContainer
+   NicknameContainer
+   PlayerContainer
+   RoomContainer
+   Inventory
+   Background
+   CoinsWidget
+   Beep
+   
+README
+======
+
+------------------------
+
 /**
  * @external createjs.Container
  * @see {@link https://www.createjs.com/docs/easeljs/classes/Container.html}
- */ 
- /**
-  * @external Socket
-  * @see {@link https://socket.io/docs/client-api/#Socket}
-  */
+ * @external Socket
+ * @see {@link https://socket.io/docs/client-api/#Socket}
+ */
 
 
 /**
@@ -2353,3 +2393,4 @@ boot = boot || {};
   (t.prototype = Object.create(createjs.Container.prototype)),
     (boot.Screen = t);
 })();
+
