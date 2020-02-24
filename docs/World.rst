@@ -12,7 +12,7 @@ The current session housing notably the current player and the room they're in.
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -110,7 +110,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getData:
 
@@ -125,7 +125,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getItemData:
 
@@ -140,7 +140,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getCritterData:
 
@@ -155,7 +155,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.updatePlayer:
 
@@ -170,7 +170,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getPlayer:
 
@@ -185,7 +185,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.handleSocket:
 
@@ -200,7 +200,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.handleLogin:
 
@@ -215,7 +215,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.handleJoinRoom:
 
@@ -230,7 +230,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.login:
 
@@ -245,7 +245,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.logout:
 
@@ -260,7 +260,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.joinRoom:
 
@@ -275,7 +275,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendMessage:
 
@@ -290,7 +290,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendCode:
 
@@ -305,7 +305,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendMove:
 
@@ -320,7 +320,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendTrigger:
 
@@ -335,7 +335,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.updateData:
 
@@ -350,7 +350,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getData:
 
@@ -365,7 +365,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getItemData:
 
@@ -380,7 +380,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getCritterData:
 
@@ -395,7 +395,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.updatePlayer:
 
@@ -410,7 +410,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.getPlayer:
 
@@ -425,7 +425,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.handleSocket:
 
@@ -440,7 +440,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.handleLogin:
 
@@ -455,7 +455,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.handleJoinRoom:
 
@@ -470,7 +470,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.login:
 
@@ -485,7 +485,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.logout:
 
@@ -500,7 +500,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.joinRoom:
 
@@ -515,7 +515,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendMessage:
 
@@ -530,7 +530,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendCode:
 
@@ -545,7 +545,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendMove:
 
@@ -560,7 +560,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.sendTrigger:
 
@@ -575,7 +575,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.on:
 
@@ -590,7 +590,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _World.emit:
 
@@ -605,5 +605,5 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 

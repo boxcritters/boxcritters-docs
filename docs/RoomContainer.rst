@@ -12,7 +12,7 @@ RoomContainer
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -292,7 +292,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.addForeground:
 
@@ -307,7 +307,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.addLayers:
 
@@ -322,7 +322,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.addEffect:
 
@@ -337,7 +337,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.addPlayer:
 
@@ -352,7 +352,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.getPlayer:
 
@@ -367,7 +367,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.removePlayer:
 
@@ -382,7 +382,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.updatePlayer:
 
@@ -397,7 +397,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.getLayer:
 
@@ -412,7 +412,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.swapLayer:
 
@@ -427,7 +427,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.addMessage:
 
@@ -442,7 +442,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.movePlayer:
 
@@ -457,7 +457,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.addAnimations:
 
@@ -472,7 +472,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.hideSprites:
 
@@ -487,7 +487,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.showSprites:
 
@@ -502,7 +502,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.focus:
 
@@ -517,7 +517,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.zoom:
 
@@ -532,7 +532,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.toggleNicknames:
 
@@ -547,7 +547,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.toggleBalloons:
 
@@ -562,7 +562,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _RoomContainer.edit:
 
@@ -577,5 +577,5 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 

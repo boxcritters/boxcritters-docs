@@ -12,13 +12,13 @@ LayerContainer
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - i
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -74,13 +74,13 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - i
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _LayerContainer.addGroup:
 
@@ -95,13 +95,13 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - i
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _LayerContainer.addEffect:
 
@@ -116,13 +116,13 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - i
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _LayerContainer.updateSprite:
 
@@ -137,11 +137,11 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - i
-     - `* <*>`
+     - `Object <Object>`
      - 

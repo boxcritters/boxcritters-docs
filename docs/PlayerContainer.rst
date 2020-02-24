@@ -12,10 +12,10 @@ PlayerContainer
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -197,10 +197,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _PlayerContainer.updateRotation:
 
@@ -215,10 +215,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _PlayerContainer.updateState:
 
@@ -233,10 +233,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _PlayerContainer.updateGear:
 
@@ -251,10 +251,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _PlayerContainer.updateLayer:
 
@@ -269,10 +269,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _PlayerContainer.remove:
 
@@ -287,10 +287,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _PlayerContainer.moveTo:
 
@@ -305,8 +305,8 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 

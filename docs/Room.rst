@@ -12,7 +12,7 @@ Room
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -89,7 +89,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _Room.getPlayer:
 
@@ -104,7 +104,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _Room.removePlayer:
 
@@ -119,7 +119,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _Room.updatePlayer:
 
@@ -134,5 +134,5 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 

@@ -12,7 +12,7 @@ MapContainer
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -68,7 +68,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _MapContainer.addTile:
 
@@ -83,5 +83,5 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 

@@ -12,10 +12,10 @@ BeepContainer
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -50,10 +50,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _BeepContainer.alert:
 
@@ -68,10 +68,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _BeepContainer.message:
 
@@ -86,10 +86,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _BeepContainer.grant:
 
@@ -104,8 +104,8 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 

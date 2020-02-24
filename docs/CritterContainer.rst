@@ -12,7 +12,7 @@ CritterContainer
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -257,7 +257,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _CritterContainer.removeItem:
 
@@ -272,7 +272,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _CritterContainer.updateGear:
 
@@ -287,7 +287,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _CritterContainer.updateDirection:
 
@@ -302,7 +302,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _CritterContainer.updateDepth:
 
@@ -317,7 +317,7 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _CritterContainer.updateState:
 
@@ -332,5 +332,5 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 

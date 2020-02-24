@@ -12,10 +12,10 @@ Beep
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -50,10 +50,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _Beep.addMessage:
 
@@ -68,10 +68,10 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 .. _Beep.showScreen:
 
@@ -86,8 +86,8 @@ Methods
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 

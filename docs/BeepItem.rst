@@ -12,7 +12,7 @@ BeepItem
      - Type
      - Description
    * - t
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties

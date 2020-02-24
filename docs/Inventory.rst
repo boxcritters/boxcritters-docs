@@ -12,7 +12,7 @@ Inventory
      - Type
      - Description
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
 
 Properties
@@ -131,5 +131,5 @@ Methods
      - Type
      - Description
    * - e
-     - `* <*>`
+     - `Object <Object>`
      - 
