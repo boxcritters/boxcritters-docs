@@ -107,7 +107,7 @@ function publish(taffyData, options, tutorials) {
 				type[0]?type=type[0]:null;
 				var link =
 				type.see&&type.see[0]||
-				type.rstLink||
+				type.name||
 				`https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${name}`;
 				return link;
 			});
