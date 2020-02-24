@@ -1,6 +1,6 @@
 ============
 MapContainer
-============
+============ extends 
 
 
 
@@ -60,7 +60,6 @@ Methods
 .edit()
 -------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -71,15 +70,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _MapContainer.addTile:
 
 .addTile()
 ----------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -90,6 +85,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

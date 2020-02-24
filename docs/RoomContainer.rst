@@ -1,6 +1,6 @@
 =============
 RoomContainer
-=============
+============= extends 
 
 
 
@@ -284,7 +284,6 @@ Methods
 .addBackground()
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -295,15 +294,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.addForeground:
 
 .addForeground()
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -314,15 +309,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.addLayers:
 
 .addLayers()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -333,15 +324,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.addEffect:
 
 .addEffect()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -352,15 +339,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.addPlayer:
 
 .addPlayer()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -371,15 +354,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.getPlayer:
 
 .getPlayer()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -390,15 +369,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.removePlayer:
 
 .removePlayer()
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -409,15 +384,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.updatePlayer:
 
 .updatePlayer()
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -428,15 +399,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.getLayer:
 
 .getLayer()
 -----------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -447,15 +414,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.swapLayer:
 
 .swapLayer()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -466,15 +429,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.addMessage:
 
 .addMessage()
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -485,15 +444,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.movePlayer:
 
 .movePlayer()
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -504,15 +459,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.addAnimations:
 
 .addAnimations()
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -523,15 +474,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.hideSprites:
 
 .hideSprites()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -542,15 +489,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.showSprites:
 
 .showSprites()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -561,15 +504,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.focus:
 
 .focus()
 --------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -580,15 +519,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.zoom:
 
 .zoom()
 -------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -599,15 +534,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.toggleNicknames:
 
 .toggleNicknames()
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -618,15 +549,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.toggleBalloons:
 
 .toggleBalloons()
 -----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -637,15 +564,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _RoomContainer.edit:
 
 .edit()
 -------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -656,6 +579,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

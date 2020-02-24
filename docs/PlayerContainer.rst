@@ -1,6 +1,6 @@
 ===============
 PlayerContainer
-===============
+=============== extends 
 
 
 
@@ -189,7 +189,6 @@ Methods
 .updateDirection()
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -203,15 +202,11 @@ Methods
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _PlayerContainer.updateRotation:
 
 .updateRotation()
 -----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -225,15 +220,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _PlayerContainer.updateState:
 
 .updateState()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -247,15 +238,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _PlayerContainer.updateGear:
 
 .updateGear()
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -269,15 +256,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _PlayerContainer.updateLayer:
 
 .updateLayer()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -291,15 +274,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _PlayerContainer.remove:
 
 .remove()
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -313,15 +292,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _PlayerContainer.moveTo:
 
 .moveTo()
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -335,6 +310,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - e
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

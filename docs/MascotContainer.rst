@@ -1,6 +1,6 @@
 ===============
 MascotContainer
-===============
+=============== extends 
 
 
 
@@ -109,7 +109,6 @@ Methods
 .updateDirection()
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -120,15 +119,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _MascotContainer.addItem:
 
 .addItem()
 ----------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -139,15 +134,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _MascotContainer.removeItem:
 
 .removeItem()
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -158,15 +149,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _MascotContainer.updateGear:
 
 .updateGear()
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -177,15 +164,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _MascotContainer.updateState:
 
 .updateState()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -196,6 +179,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

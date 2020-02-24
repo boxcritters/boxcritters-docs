@@ -1,6 +1,6 @@
 ===
 Map
-===
+=== extends 
 
 
 
@@ -53,7 +53,6 @@ Methods
 .getTile(t, e)
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -64,15 +63,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _Map.getTrigger:
 
 .getTrigger(t)
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -83,15 +78,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _Map.getLayer:
 
 .getLayer(t)
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -102,15 +93,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _Map.new:
 
 .new(t, e)
 ----------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -121,6 +108,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

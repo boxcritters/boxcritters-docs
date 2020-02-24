@@ -1,6 +1,6 @@
 ==============
 LayerContainer
-==============
+============== extends :doc:`createjs.Container<./createjs.Container>`
 
 
 
@@ -66,7 +66,6 @@ Methods
 .addSprite(t, e)
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -83,15 +82,11 @@ Methods
    * - i
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _LayerContainer.addGroup:
 
 .addGroup(t, e)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -108,15 +103,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - i
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _LayerContainer.addEffect:
 
 .addEffect()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -133,15 +124,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - i
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _LayerContainer.updateSprite:
 
 .updateSprite()
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -158,6 +145,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - i
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

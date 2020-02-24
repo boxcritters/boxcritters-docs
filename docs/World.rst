@@ -1,6 +1,6 @@
 =====
 World
-=====
+===== extends :doc:`GameObject<./GameObject>`
 The current session housing notably the current player and the room they're in.
 
 
@@ -102,7 +102,6 @@ Methods
 .updateData(t, e)
 -----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -113,15 +112,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getData:
 
 .getData(t)
 -----------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -132,15 +127,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getItemData:
 
 .getItemData(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -151,15 +142,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getCritterData:
 
 .getCritterData(t)
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -170,15 +157,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.updatePlayer:
 
 .updatePlayer(t)
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -189,15 +172,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getPlayer:
 
 .getPlayer()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -208,15 +187,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.handleSocket:
 
 .handleSocket()
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -227,15 +202,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.handleLogin:
 
 .handleLogin(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -246,15 +217,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.handleJoinRoom:
 
 .handleJoinRoom(t)
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -265,15 +232,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.login:
 
 .login(t)
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -284,15 +247,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.logout:
 
 .logout()
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -303,15 +262,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.joinRoom:
 
 .joinRoom(t)
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -322,15 +277,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendMessage:
 
 .sendMessage(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -341,15 +292,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendCode:
 
 .sendCode(t)
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -360,15 +307,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendMove:
 
 .sendMove(t, e)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -379,15 +322,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendTrigger:
 
 .sendTrigger()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -398,15 +337,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.updateData:
 
 .updateData(t, e)
 -----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -417,15 +352,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getData:
 
 .getData(t)
 -----------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -436,15 +367,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getItemData:
 
 .getItemData(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -455,15 +382,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getCritterData:
 
 .getCritterData(t)
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -474,15 +397,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.updatePlayer:
 
 .updatePlayer(t)
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -493,15 +412,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.getPlayer:
 
 .getPlayer()
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -512,15 +427,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.handleSocket:
 
 .handleSocket()
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -531,15 +442,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.handleLogin:
 
 .handleLogin(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -550,15 +457,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.handleJoinRoom:
 
 .handleJoinRoom(t)
 ------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -569,15 +472,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.login:
 
 .login(t)
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -588,15 +487,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.logout:
 
 .logout()
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -607,15 +502,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.joinRoom:
 
 .joinRoom(t)
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -626,15 +517,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendMessage:
 
 .sendMessage(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -645,15 +532,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendCode:
 
 .sendCode(t)
 ------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -664,15 +547,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendMove:
 
 .sendMove(t, e)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -683,15 +562,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.sendTrigger:
 
 .sendTrigger()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -702,15 +577,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.on:
 
 .on(t, e)
 ---------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -721,15 +592,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _World.emit:
 
 .emit(t)
 --------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -740,6 +607,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

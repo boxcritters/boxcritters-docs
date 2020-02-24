@@ -1,6 +1,6 @@
 ====
 Room
-====
+==== extends 
 
 
 
@@ -81,7 +81,6 @@ Methods
 .addPlayer(t)
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -92,15 +91,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _Room.getPlayer:
 
 .getPlayer(t)
 -------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -111,15 +106,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _Room.removePlayer:
 
 .removePlayer(t)
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -130,15 +121,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _Room.updatePlayer:
 
 .updatePlayer(t)
 ----------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -149,6 +136,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

@@ -4,7 +4,6 @@
 {{/rstReference}}
 {{#h3}}.{{signature}}{{/h3}}
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -17,6 +16,6 @@
      - {{#type.names}}`{{.}} <{{.}}>`{{/type.names}}
      - {{description}}
 {{/doclet.params}}
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
+{{#returns}}
+Returns: {{signature}} {{description}}
+{{/returns}}

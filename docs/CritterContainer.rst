@@ -1,6 +1,6 @@
 ================
 CritterContainer
-================
+================ extends 
 
 
 
@@ -249,7 +249,6 @@ Methods
 .addItem(t, e)
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -260,15 +259,11 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _CritterContainer.removeItem:
 
 .removeItem(t)
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -279,15 +274,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _CritterContainer.updateGear:
 
 .updateGear(t)
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -298,15 +289,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _CritterContainer.updateDirection:
 
 .updateDirection(t)
 -------------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -317,15 +304,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _CritterContainer.updateDepth:
 
 .updateDepth()
 --------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -336,15 +319,11 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
 .. _CritterContainer.updateState:
 
 .updateState(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -355,6 +334,3 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-

@@ -1,6 +1,6 @@
 ================
 BalloonContainer
-================
+================ extends 
 
 
 
@@ -39,7 +39,6 @@ Methods
 .showMessage(t)
 ---------------
 
-
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
@@ -50,6 +49,3 @@ Methods
    * - t
      - `* <*>`
      - 
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
-
