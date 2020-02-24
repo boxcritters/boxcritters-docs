@@ -1,7 +1,7 @@
 ==============
 StageContainer
 ==============
-extends `Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`_
+extends :doc:`Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`_
 
 
 Constructor
@@ -14,10 +14,10 @@ Constructor
      - Type
      - Description
    * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
+     - :doc:`HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
      - canvas element to display the game in
    * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 
 Properties

@@ -1,7 +1,7 @@
 =====
 World
 =====
-extends `GameObject <GameObject>`_
+extends :doc:`GameObject <GameObject>`_
 Represents the world of the game and contains everything in the game
 
 Constructor
@@ -14,7 +14,7 @@ Constructor
      - Type
      - Description
    * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
+     - :doc:`HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
      - 
 
 Properties
