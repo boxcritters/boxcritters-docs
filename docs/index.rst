@@ -19,6 +19,7 @@ Welcome to Box Critters's documentation!
    Room
    AssetContainer
    BalloonContainer
+   BeepContainer
    StageContainer
    
    :caption: Namespaces

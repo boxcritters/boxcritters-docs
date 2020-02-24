@@ -16,7 +16,7 @@ Constructor
      - Description
    * - t
      - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
+     - canvas element to display the game in
 
 Properties
 ==========
