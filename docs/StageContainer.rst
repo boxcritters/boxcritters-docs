@@ -4,6 +4,7 @@ StageContainer
 extends `Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`_
 
 
+
 Constructor
 ===========
 .. list-table::

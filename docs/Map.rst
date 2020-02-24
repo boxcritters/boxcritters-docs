@@ -2,6 +2,7 @@
 Map
 ===
 extends 
+
 Represents a map of background and foreground elements
 
 Constructor

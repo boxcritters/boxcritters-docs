@@ -2,6 +2,7 @@
 GameObject
 ==========
 extends `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 Represents an object of the game
 
 Constructor
