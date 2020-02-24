@@ -24,7 +24,7 @@ Constructor
      - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
    * - t.tileTriggers
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
+     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`_
      - 
 
 Properties
@@ -48,7 +48,7 @@ Properties
 
 .triggers
 ---------
-Type: `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
+Type: `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`_
 
 .. _Map.tileMap:
 

@@ -33,10 +33,10 @@ Constructor
      - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
    * - t.layers
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
+     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`_
      - 
    * - t.players
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
+     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`_
      - Players in the room
 
 Properties
@@ -67,7 +67,7 @@ Type: `String <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 .layers
 -------
-Type: `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
+Type: `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`_
 
 .. _Room.map:
 
