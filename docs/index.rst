@@ -17,6 +17,8 @@ Welcome to Box Critters's documentation!
    Map
    Player
    Room
+   AssetContainer
+   BalloonContainer
    StageContainer
    
    :caption: Namespaces
