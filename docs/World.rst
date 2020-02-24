@@ -23,14 +23,14 @@ Properties
 
 .player
 -------
-Type: `Player`_
+Type: `Player <Player>`_
 
 .. _World.room:
 
 
 .room
 -----
-Type: `Player`_
+Type: `Player <Player>`_
 
 .. _World.data:
 
@@ -51,7 +51,7 @@ Type: `Player`_
 
 .stage
 ------
-Type: `StageContainer`_
+Type: `StageContainer <StageContainer>`_
 
 .. _World.data[undefined]:
 

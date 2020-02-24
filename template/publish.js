@@ -105,11 +105,13 @@ function publish(taffyData, options, tutorials) {
 			var name = v.type.names[0]
 			var type = helper.find(context.data, {name});
 			type[0]?type=type[0]:null;
+
 			var link =
 			type.see&&type.see[0]||
 			type.name||
 			`https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${name}`;
-			if(link!==type.name)v.type.link=link;
+			
+			v.type.link=link;
 		});
 	}
 
