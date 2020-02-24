@@ -4,7 +4,6 @@ CoinsWidget
 
 
 
-
 .. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
@@ -14,27 +13,19 @@ CoinsWidget
      - Description
 
 Properties
-----------
-
-.property
-^^^^^^^^^
-
-Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+==========
+.. _CoinsWidget.t:
+.t
+--
+Type: 
+.. _CoinsWidget.e:
+.e
+--
+Type: 
+.. _CoinsWidget.i:
+.i
+--
+Type: 
 
 Methods
--------
-
-.method(a)
-^^^^^^^^^^
-
-.. list-table::
-   :header-rows: 1
-
-   * - Parameter
-     - Type
-     - Description
-   * - a
-     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+=======

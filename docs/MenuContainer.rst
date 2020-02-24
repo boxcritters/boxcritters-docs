@@ -4,7 +4,6 @@ MenuContainer
 
 
 
-
 .. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
@@ -13,31 +12,23 @@ MenuContainer
      - Type
      - Description
    * - t
-     - *
+     - `* <*>`
      - 
 
 Properties
-----------
-
-.property
-^^^^^^^^^
-
-Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+==========
+.. _MenuContainer.e:
+.e
+--
+Type: 
+.. _MenuContainer.i:
+.i
+--
+Type: 
+.. _MenuContainer.o:
+.o
+--
+Type: 
 
 Methods
--------
-
-.method(a)
-^^^^^^^^^^
-
-.. list-table::
-   :header-rows: 1
-
-   * - Parameter
-     - Type
-     - Description
-   * - a
-     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+=======

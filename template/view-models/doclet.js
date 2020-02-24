@@ -23,7 +23,7 @@ function docletModel(doclet) {
       }
 	);
 	viewModel.doclet.params
-	console.log(JSON.stringify(viewModel,null,2))
+	//console.log(JSON.stringify(viewModel,null,2))
     util.view('doclet.rst', viewModel, cb);
   };
 }

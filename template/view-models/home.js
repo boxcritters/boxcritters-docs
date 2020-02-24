@@ -20,7 +20,7 @@ function home(context, cb) {
     _.pick(context, ['readme'])
   );
 
-  console.log("Home: ",JSON.stringify(viewModel,null,2))
+  //console.log("Home: ",JSON.stringify(viewModel,null,2))
   logger.debug('home namespaces', viewModel.namespaces);
 
   util.view('home.rst', viewModel, cb);

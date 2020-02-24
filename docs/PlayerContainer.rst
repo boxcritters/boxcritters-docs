@@ -4,6 +4,121 @@ PlayerContainer
 
 
 
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
+
+Properties
+==========
+.. _PlayerContainer.isLocal:
+.isLocal
+--------
+Type: 
+.. _PlayerContainer.playerId:
+.playerId
+---------
+Type: 
+.. _PlayerContainer.critterId:
+.critterId
+----------
+Type: 
+.. _PlayerContainer.isMoving:
+.isMoving
+---------
+Type: 
+.. _PlayerContainer.animation:
+.animation
+----------
+Type: 
+.. _PlayerContainer.speed:
+.speed
+------
+Type: 
+.. _PlayerContainer.extra:
+.extra
+------
+Type: 
+.. _PlayerContainer.x:
+.x
+--
+Type: 
+.. _PlayerContainer.y:
+.y
+--
+Type: 
+.. _PlayerContainer.z:
+.z
+--
+Type: 
+.. _PlayerContainer.r:
+.r
+--
+Type: 
+.. _PlayerContainer.direction:
+.direction
+----------
+Type: 
+.. _PlayerContainer.targetX:
+.targetX
+--------
+Type: 
+.. _PlayerContainer.targetY:
+.targetY
+--------
+Type: 
+.. _PlayerContainer.critter:
+.critter
+--------
+Type: 
+.. _PlayerContainer.critter:
+.critter
+--------
+Type: 
+.. _PlayerContainer.direction:
+.direction
+----------
+Type: 
+.. _PlayerContainer.z:
+.z
+--
+Type: 
+.. _PlayerContainer.isMoving:
+.isMoving
+---------
+Type: 
+.. _PlayerContainer.targetX:
+.targetX
+--------
+Type: 
+.. _PlayerContainer.targetY:
+.targetY
+--------
+Type: 
+.. _PlayerContainer.tween:
+.tween
+------
+Type: 
+.. _PlayerContainer.isMoving:
+.isMoving
+---------
+Type: 
+
+Methods
+=======
+.. _PlayerContainer.updateDirection:
+.updateDirection()
+------------------
+
 
 .. list-table:: Title
    :widths: 25 25 50
@@ -13,34 +128,130 @@ PlayerContainer
      - Type
      - Description
    * - t
-     - *
+     - `* <*>`
      - 
    * - e
-     - *
+     - `* <*>`
      - 
 
-Properties
-----------
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+.. _PlayerContainer.updateRotation:
+.updateRotation()
+-----------------
 
-.property
-^^^^^^^^^
 
-Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-
-Methods
--------
-
-.method(a)
-^^^^^^^^^^
-
-.. list-table::
+.. list-table:: Title
+   :widths: 25 25 50
    :header-rows: 1
 
    * - Parameter
      - Type
      - Description
-   * - a
-     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
 
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+.. _PlayerContainer.updateState:
+.updateState()
+--------------
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
+
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+.. _PlayerContainer.updateGear:
+.updateGear()
+-------------
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
+
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+.. _PlayerContainer.updateLayer:
+.updateLayer()
+--------------
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
+
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+.. _PlayerContainer.remove:
+.remove()
+---------
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
+
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+.. _PlayerContainer.moveTo:
+.moveTo()
+---------
+
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+   * - t
+     - `* <*>`
+     - 
+   * - e
+     - `* <*>`
+     - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

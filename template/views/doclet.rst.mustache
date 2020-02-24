@@ -5,7 +5,6 @@
 {{doclet.description}}
 
 
-
 .. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
@@ -15,32 +14,16 @@
      - Description
 {{#doclet.params}}
    * - {{name}}
-     - {{#type.names}}{{.}}{{/type.names}}
+     - {{#type.names}}`{{.}} <{{.}}>`{{/type.names}}
      - {{description}}
 {{/doclet.params}}
 
-Properties
-----------
+{{#h2}}Properties{{/h2}}
+{{#member}}
+{{>member}}
+{{/member}}
 
-.property
-^^^^^^^^^
-
-Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-
-Methods
--------
-
-.method(a)
-^^^^^^^^^^
-
-.. list-table::
-   :header-rows: 1
-
-   * - Parameter
-     - Type
-     - Description
-   * - a
-     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+{{#h2}}Methods{{/h2}}
+{{#function}}
+{{>func}}
+{{/function}}

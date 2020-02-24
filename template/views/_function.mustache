@@ -1,5 +1,20 @@
 {{#rstReference}}
 .. _{{rstReference}}:
 {{/rstReference}}
+{{#h3}}.{{signature}}{{/h3}}
 
-Function Template
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Parameter
+     - Type
+     - Description
+{{#doclet.params}}
+   * - {{name}}
+     - {{#type.names}}`{{.}} <{{.}}>`{{/type.names}}
+     - {{description}}
+{{/doclet.params}}
+
+Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_

@@ -4,7 +4,6 @@ BeepItem
 
 
 
-
 .. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
@@ -13,31 +12,35 @@ BeepItem
      - Type
      - Description
    * - t
-     - *
+     - `* <*>`
      - 
 
 Properties
-----------
-
-.property
-^^^^^^^^^
-
-Type: `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+==========
+.. _BeepItem.mc:
+.mc
+---
+Type: 
+.. _BeepItem.e:
+.e
+--
+Type: 
+.. _BeepItem.i:
+.i
+--
+Type: 
+.. _BeepItem.o:
+.o
+--
+Type: 
+.. _BeepItem.s:
+.s
+--
+Type: 
+.. _BeepItem.a:
+.a
+--
+Type: 
 
 Methods
--------
-
-.method(a)
-^^^^^^^^^^
-
-.. list-table::
-   :header-rows: 1
-
-   * - Parameter
-     - Type
-     - Description
-   * - a
-     - `object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-
-
-Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+=======

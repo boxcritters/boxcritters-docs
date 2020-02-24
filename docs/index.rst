@@ -11,7 +11,6 @@ Welcome to Box Critters's documentation!
    
    :caption: Classes
    
-   GameObject
    World
    Crumb
    Map
