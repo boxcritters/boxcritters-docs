@@ -1,6 +1,7 @@
 ===============
 MascotContainer
-=============== extends 
+===============
+extends 
 
 
 
@@ -12,7 +13,7 @@ MascotContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,84 +23,84 @@ Properties
 
 .e
 --
-Type: 
+
 
 .. _MascotContainer.state:
 
 
 .state
 ------
-Type: 
+
 
 .. _MascotContainer.isMoving:
 
 
 .isMoving
 ---------
-Type: 
+
 
 .. _MascotContainer.scaleX:
 
 
 .scaleX
 -------
-Type: 
+
 
 .. _MascotContainer.scaleY:
 
 
 .scaleY
 -------
-Type: 
+
 
 .. _MascotContainer.framerate:
 
 
 .framerate
 ----------
-Type: 
+
 
 .. _MascotContainer.loop:
 
 
 .loop
 -----
-Type: 
+
 
 .. _MascotContainer.currentDirection:
 
 
 .currentDirection
 -----------------
-Type: 
+
 
 .. _MascotContainer.directionFrames:
 
 
 .directionFrames
 ----------------
-Type: 
+
 
 .. _MascotContainer.i:
 
 
 .i
 --
-Type: 
+
 
 .. _MascotContainer.sprite:
 
 
 .sprite
 -------
-Type: 
+
 
 .. _MascotContainer.currentDirection:
 
 
 .currentDirection
 -----------------
-Type: 
+
 
 
 Methods
@@ -117,7 +118,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MascotContainer.addItem:
 
@@ -132,7 +133,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MascotContainer.removeItem:
 
@@ -147,7 +148,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MascotContainer.updateGear:
 
@@ -162,7 +163,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MascotContainer.updateState:
 
@@ -177,5 +178,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

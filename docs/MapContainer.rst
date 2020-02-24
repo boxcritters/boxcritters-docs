@@ -1,6 +1,7 @@
 ============
 MapContainer
-============ extends 
+============
+extends 
 
 
 
@@ -12,7 +13,7 @@ MapContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,35 +23,35 @@ Properties
 
 .data
 -----
-Type: 
+
 
 .. _MapContainer.activeTile:
 
 
 .activeTile
 -----------
-Type: 
+
 
 .. _MapContainer.tiles:
 
 
 .tiles
 ------
-Type: 
+
 
 .. _MapContainer.fills:
 
 
 .fills
 ------
-Type: 
+
 
 .. _MapContainer.activeTile:
 
 
 .activeTile
 -----------
-Type: 
+
 
 
 Methods
@@ -68,7 +69,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MapContainer.addTile:
 
@@ -83,5 +84,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

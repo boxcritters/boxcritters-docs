@@ -23,6 +23,7 @@
   "homepage": "https://github.com/boxcritters/boxcritters-docs#readme",
   "devDependencies": {},
   "dependencies": {
+    "handlebars": "^4.7.3",
     "jsdoc": "^3.6.3",
     "jsdoc-sphinx": "0.0.6"
   }

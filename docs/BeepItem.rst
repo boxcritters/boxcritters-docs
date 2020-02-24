@@ -1,6 +1,7 @@
 ========
 BeepItem
-======== extends 
+========
+extends 
 
 
 
@@ -12,7 +13,7 @@ BeepItem
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,42 +23,42 @@ Properties
 
 .mc
 ---
-Type: 
+
 
 .. _BeepItem.e:
 
 
 .e
 --
-Type: 
+
 
 .. _BeepItem.i:
 
 
 .i
 --
-Type: 
+
 
 .. _BeepItem.o:
 
 
 .o
 --
-Type: 
+
 
 .. _BeepItem.s:
 
 
 .s
 --
-Type: 
+
 
 .. _BeepItem.a:
 
 
 .a
 --
-Type: 
+
 
 
 Methods

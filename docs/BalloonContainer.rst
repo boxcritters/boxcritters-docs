@@ -1,6 +1,7 @@
 ================
 BalloonContainer
-================ extends 
+================
+extends 
 
 
 
@@ -12,7 +13,7 @@ BalloonContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,14 +23,14 @@ Properties
 
 .x
 --
-Type: 
+
 
 .. _BalloonContainer.y:
 
 
 .y
 --
-Type: 
+
 
 
 Methods
@@ -47,5 +48,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

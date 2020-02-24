@@ -1,6 +1,7 @@
 ====
 Beep
-==== extends 
+====
+extends 
 
 
 
@@ -12,10 +13,10 @@ Beep
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -25,14 +26,14 @@ Properties
 
 .width
 ------
-Type: 
+
 
 .. _Beep.height:
 
 
 .height
 -------
-Type: 
+
 
 
 Methods
@@ -50,10 +51,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Beep.addMessage:
 
@@ -68,10 +69,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Beep.showScreen:
 
@@ -86,8 +87,8 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

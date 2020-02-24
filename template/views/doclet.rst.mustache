@@ -2,7 +2,8 @@
 .. _{{doclet.rstReference}}:
 
 {{/doclet.rstReference}}
-{{#h1}}{{doclet.name}}{{/h1}} extends {{#doclet.augments}}:doc:`{{.}}<./{{.}}>`{{/doclet.augments}}
+{{#h1}}{{doclet.name}}{{/h1}}
+extends {{#doclet.augments}}:doc:`{{.}}<./{{.}}>`{{/doclet.augments}}
 {{doclet.description}}
 
 
@@ -15,7 +16,7 @@
      - Description
 {{#doclet.params}}
    * - {{name}}
-     - {{#type.names}}`{{.}} <{{.}}>`{{/type.names}}
+     - {{#type}}`{{#type.names}}{{.}}{{/type.names}} <{{#type.links}}{{.}}{{/type.links}}>`{{/type}}
      - {{description}}
 {{/doclet.params}}
 

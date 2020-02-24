@@ -1,6 +1,7 @@
 ================
 CritterContainer
-================ extends 
+================
+extends 
 
 
 
@@ -12,7 +13,7 @@ CritterContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,224 +23,224 @@ Properties
 
 .e
 --
-Type: 
+
 
 .. _CritterContainer.state:
 
 
 .state
 ------
-Type: 
+
 
 .. _CritterContainer.isMoving:
 
 
 .isMoving
 ---------
-Type: 
+
 
 .. _CritterContainer.isForward:
 
 
 .isForward
 ----------
-Type: 
+
 
 .. _CritterContainer.hasTail:
 
 
 .hasTail
 --------
-Type: 
+
 
 .. _CritterContainer.hasEars:
 
 
 .hasEars
 --------
-Type: 
+
 
 .. _CritterContainer.direction:
 
 
 .direction
 ----------
-Type: 
+
 
 .. _CritterContainer.framerate:
 
 
 .framerate
 ----------
-Type: 
+
 
 .. _CritterContainer.loop:
 
 
 .loop
 -----
-Type: 
+
 
 .. _CritterContainer.regX:
 
 
 .regX
 -----
-Type: 
+
 
 .. _CritterContainer.regY:
 
 
 .regY
 -----
-Type: 
+
 
 .. _CritterContainer.i:
 
 
 .i
 --
-Type: 
+
 
 .. _CritterContainer.bodyContainer:
 
 
 .bodyContainer
 --------------
-Type: 
+
 
 .. _CritterContainer.feetContainer:
 
 
 .feetContainer
 --------------
-Type: 
+
 
 .. _CritterContainer.baseContainer:
 
 
 .baseContainer
 --------------
-Type: 
+
 
 .. _CritterContainer.skin:
 
 
 .skin
 -----
-Type: 
+
 
 .. _CritterContainer.ears:
 
 
 .ears
 -----
-Type: 
+
 
 .. _CritterContainer.face:
 
 
 .face
 -----
-Type: 
+
 
 .. _CritterContainer.feet:
 
 
 .feet
 -----
-Type: 
+
 
 .. _CritterContainer.tail:
 
 
 .tail
 -----
-Type: 
+
 
 .. _CritterContainer.hasEars:
 
 
 .hasEars
 --------
-Type: 
+
 
 .. _CritterContainer.hasTail:
 
 
 .hasTail
 --------
-Type: 
+
 
 .. _CritterContainer.slots:
 
 
 .slots
 ------
-Type: 
+
 
 .. _CritterContainer.backs:
 
 
 .backs
 ------
-Type: 
+
 
 .. _CritterContainer.forward:
 
 
 .forward
 --------
-Type: 
+
 
 .. _CritterContainer.backward:
 
 
 .backward
 ---------
-Type: 
+
 
 .. _CritterContainer.o:
 
 
 .o
 --
-Type: 
+
 
 .. _CritterContainer.isForward:
 
 
 .isForward
 ----------
-Type: 
+
 
 .. _CritterContainer.isForward:
 
 
 .isForward
 ----------
-Type: 
+
 
 .. _CritterContainer.direction:
 
 
 .direction
 ----------
-Type: 
+
 
 .. _CritterContainer.state:
 
 
 .state
 ------
-Type: 
+
 
 .. _CritterContainer.state:
 
 
 .state
 ------
-Type: 
+
 
 
 Methods
@@ -257,7 +258,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _CritterContainer.removeItem:
 
@@ -272,7 +273,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _CritterContainer.updateGear:
 
@@ -287,7 +288,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _CritterContainer.updateDirection:
 
@@ -302,7 +303,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _CritterContainer.updateDepth:
 
@@ -317,7 +318,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _CritterContainer.updateState:
 
@@ -332,5 +333,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

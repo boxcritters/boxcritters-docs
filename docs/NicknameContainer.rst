@@ -1,6 +1,7 @@
 =================
 NicknameContainer
-================= extends 
+=================
+extends 
 
 
 
@@ -12,7 +13,7 @@ NicknameContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,21 +23,21 @@ Properties
 
 .e
 --
-Type: 
+
 
 .. _NicknameContainer.x:
 
 
 .x
 --
-Type: 
+
 
 .. _NicknameContainer.y:
 
 
 .y
 --
-Type: 
+
 
 
 Methods

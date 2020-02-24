@@ -1,6 +1,7 @@
 ======
 Player
-====== extends :doc:`GameObject<./GameObject>`
+======
+extends :doc:`GameObject<./GameObject>`
 
 
 
@@ -12,7 +13,7 @@ Player
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,119 +23,126 @@ Properties
 
 .playerId
 ---------
-Type: 
+
 
 .. _Player.nickname:
 
 
 .nickname
 ---------
-Type: 
+
 
 .. _Player.critterId:
 
 
 .critterId
 ----------
-Type: 
+
 
 .. _Player.inventory:
 
 
 .inventory
 ----------
-Type: 
+
 
 .. _Player.friends:
 
 
 .friends
 --------
-Type: 
+
 
 .. _Player.gear:
 
 
 .gear
 -----
-Type: 
+
 
 .. _Player.def:
 
 
 .def
 ----
-Type: 
+
 
 .. _Player.str:
 
 
 .str
 ----
-Type: 
+
 
 .. _Player.gems:
 
 
 .gems
 -----
-Type: 
+
 
 .. _Player.coins:
 
 
 .coins
 ------
-Type: 
+
 
 .. _Player.hp:
 
 
 .hp
 ---
-Type: 
+
 
 .. _Player.e:
 
 
 .e
 --
-Type: 
+
 
 .. _Player.gear:
 
 
 .gear
 -----
-Type: 
+
 
 .. _Player.critterId:
 
 
 .critterId
 ----------
-Type: 
+
 
 .. _Player.coins:
 
 
 .coins
 ------
-Type: 
+
 
 .. _Player.coins:
 
 
 .coins
 ------
-Type: 
+
 
 .. _Player.gear[undefined]:
 
 
 .gear[undefined]
 ----------------
-Type: 
+
+
+.. _Player._events:
+
+
+._events
+--------
+Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
 
 
 Methods
@@ -152,7 +160,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.getCrumb:
 
@@ -167,7 +175,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.updateData:
 
@@ -182,7 +190,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.getCoins:
 
@@ -197,7 +205,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.updateCoins:
 
@@ -212,7 +220,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.updateGear:
 
@@ -227,7 +235,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.addItem:
 
@@ -242,7 +250,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.removeItem:
 
@@ -257,7 +265,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.isItemActive:
 
@@ -272,7 +280,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.getItemFromInventory:
 
@@ -287,7 +295,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.handleMove:
 
@@ -302,7 +310,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.handleStop:
 
@@ -317,7 +325,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.on:
 
@@ -332,7 +340,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Player.emit:
 
@@ -347,5 +355,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

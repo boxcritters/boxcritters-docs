@@ -27,6 +27,7 @@ function titlecase() {
   };
 }
 
+
 /**
  * Create a mixin object containing mustache lambda function for heading.
  *

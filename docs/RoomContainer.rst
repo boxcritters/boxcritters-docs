@@ -1,6 +1,7 @@
 =============
 RoomContainer
-============= extends 
+=============
+extends 
 
 
 
@@ -12,7 +13,7 @@ RoomContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,259 +23,259 @@ Properties
 
 .data
 -----
-Type: 
+
 
 .. _RoomContainer.name:
 
 
 .name
 -----
-Type: 
+
 
 .. _RoomContainer.width:
 
 
 .width
 ------
-Type: 
+
 
 .. _RoomContainer.height:
 
 
 .height
 -------
-Type: 
+
 
 .. _RoomContainer.scaleX:
 
 
 .scaleX
 -------
-Type: 
+
 
 .. _RoomContainer.scaleY:
 
 
 .scaleY
 -------
-Type: 
+
 
 .. _RoomContainer.maxLayer:
 
 
 .maxLayer
 ---------
-Type: 
+
 
 .. _RoomContainer.startx:
 
 
 .startx
 -------
-Type: 
+
 
 .. _RoomContainer.starty:
 
 
 .starty
 -------
-Type: 
+
 
 .. _RoomContainer.startz:
 
 
 .startz
 -------
-Type: 
+
 
 .. _RoomContainer.focusX:
 
 
 .focusX
 -------
-Type: 
+
 
 .. _RoomContainer.focusY:
 
 
 .focusY
 -------
-Type: 
+
 
 .. _RoomContainer.layers:
 
 
 .layers
 -------
-Type: 
+
 
 .. _RoomContainer.foreground:
 
 
 .foreground
 -----------
-Type: 
+
 
 .. _RoomContainer.playground:
 
 
 .playground
 -----------
-Type: 
+
 
 .. _RoomContainer.background:
 
 
 .background
 -----------
-Type: 
+
 
 .. _RoomContainer.balloons:
 
 
 .balloons
 ---------
-Type: 
+
 
 .. _RoomContainer.nicknames:
 
 
 .nicknames
 ----------
-Type: 
+
 
 .. _RoomContainer.map:
 
 
 .map
 ----
-Type: 
+
 
 .. _RoomContainer.symbols:
 
 
 .symbols
 --------
-Type: 
+
 
 .. _RoomContainer.effects:
 
 
 .effects
 --------
-Type: 
+
 
 .. _RoomContainer.spritesheet:
 
 
 .spritesheet
 ------------
-Type: 
+
 
 .. _RoomContainer.players:
 
 
 .players
 --------
-Type: 
+
 
 .. _RoomContainer.e:
 
 
 .e
 --
-Type: 
+
 
 .. _RoomContainer.i:
 
 
 .i
 --
-Type: 
+
 
 .. _RoomContainer.layers:
 
 
 .layers
 -------
-Type: 
+
 
 .. _RoomContainer.layers[undefined]:
 
 
 .layers[undefined]
 ------------------
-Type: 
+
 
 .. _RoomContainer.maxLayer:
 
 
 .maxLayer
 ---------
-Type: 
+
 
 .. _RoomContainer.players[undefined]:
 
 
 .players[undefined]
 -------------------
-Type: 
+
 
 .. _RoomContainer.x:
 
 
 .x
 --
-Type: 
+
 
 .. _RoomContainer.x:
 
 
 .x
 --
-Type: 
+
 
 .. _RoomContainer.y:
 
 
 .y
 --
-Type: 
+
 
 .. _RoomContainer.y:
 
 
 .y
 --
-Type: 
+
 
 .. _RoomContainer.focusX:
 
 
 .focusX
 -------
-Type: 
+
 
 .. _RoomContainer.focusY:
 
 
 .focusY
 -------
-Type: 
+
 
 .. _RoomContainer.scaleX:
 
 
 .scaleX
 -------
-Type: 
+
 
 .. _RoomContainer.scaleY:
 
 
 .scaleY
 -------
-Type: 
+
 
 
 Methods
@@ -292,7 +293,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.addForeground:
 
@@ -307,7 +308,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.addLayers:
 
@@ -322,7 +323,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.addEffect:
 
@@ -337,7 +338,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.addPlayer:
 
@@ -352,7 +353,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.getPlayer:
 
@@ -367,7 +368,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.removePlayer:
 
@@ -382,7 +383,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.updatePlayer:
 
@@ -397,7 +398,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.getLayer:
 
@@ -412,7 +413,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.swapLayer:
 
@@ -427,7 +428,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.addMessage:
 
@@ -442,7 +443,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.movePlayer:
 
@@ -457,7 +458,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.addAnimations:
 
@@ -472,7 +473,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.hideSprites:
 
@@ -487,7 +488,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.showSprites:
 
@@ -502,7 +503,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.focus:
 
@@ -517,7 +518,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.zoom:
 
@@ -532,7 +533,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.toggleNicknames:
 
@@ -547,7 +548,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.toggleBalloons:
 
@@ -562,7 +563,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _RoomContainer.edit:
 
@@ -577,5 +578,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

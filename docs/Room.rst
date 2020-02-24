@@ -1,6 +1,7 @@
 ====
 Room
-==== extends 
+====
+extends 
 
 
 
@@ -12,7 +13,7 @@ Room
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,56 +23,56 @@ Properties
 
 .roomId
 -------
-Type: 
+
 
 .. _Room.name:
 
 
 .name
 -----
-Type: 
+
 
 .. _Room.players:
 
 
 .players
 --------
-Type: 
+
 
 .. _Room.layers:
 
 
 .layers
 -------
-Type: 
+
 
 .. _Room.map:
 
 
 .map
 ----
-Type: 
+
 
 .. _Room.e:
 
 
 .e
 --
-Type: 
+
 
 .. _Room.i:
 
 
 .i
 --
-Type: 
+
 
 .. _Room.players[undefined]:
 
 
 .players[undefined]
 -------------------
-Type: 
+
 
 
 Methods
@@ -89,7 +90,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Room.getPlayer:
 
@@ -104,7 +105,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Room.removePlayer:
 
@@ -119,7 +120,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Room.updatePlayer:
 
@@ -134,5 +135,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

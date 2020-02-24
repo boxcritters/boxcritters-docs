@@ -1,6 +1,7 @@
 ================
 MonsterContainer
-================ extends 
+================
+extends 
 
 
 
@@ -12,7 +13,7 @@ MonsterContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,56 +23,56 @@ Properties
 
 .scaleX
 -------
-Type: 
+
 
 .. _MonsterContainer.scaleY:
 
 
 .scaleY
 -------
-Type: 
+
 
 .. _MonsterContainer.framerate:
 
 
 .framerate
 ----------
-Type: 
+
 
 .. _MonsterContainer.loop:
 
 
 .loop
 -----
-Type: 
+
 
 .. _MonsterContainer.currentDirection:
 
 
 .currentDirection
 -----------------
-Type: 
+
 
 .. _MonsterContainer.e:
 
 
 .e
 --
-Type: 
+
 
 .. _MonsterContainer.sprite:
 
 
 .sprite
 -------
-Type: 
+
 
 .. _MonsterContainer.currentDirection:
 
 
 .currentDirection
 -----------------
-Type: 
+
 
 
 Methods
@@ -89,7 +90,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MonsterContainer.addItem:
 
@@ -104,7 +105,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MonsterContainer.removeItem:
 
@@ -119,7 +120,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MonsterContainer.updateGear:
 
@@ -134,7 +135,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MonsterContainer.updateState:
 
@@ -149,7 +150,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _MonsterContainer.remove:
 
@@ -164,5 +165,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

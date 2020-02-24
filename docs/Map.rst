@@ -1,6 +1,7 @@
 ===
 Map
-=== extends 
+===
+extends 
 
 
 
@@ -12,7 +13,7 @@ Map
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,28 +23,28 @@ Properties
 
 .tileSize
 ---------
-Type: 
+
 
 .. _Map.tileMap:
 
 
 .tileMap
 --------
-Type: 
+
 
 .. _Map.triggers:
 
 
 .triggers
 ---------
-Type: 
+
 
 .. _Map.tileMap:
 
 
 .tileMap
 --------
-Type: 
+
 
 
 Methods
@@ -61,7 +62,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Map.getTrigger:
 
@@ -76,7 +77,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Map.getLayer:
 
@@ -91,7 +92,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _Map.new:
 
@@ -106,5 +107,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

@@ -1,6 +1,7 @@
 =============
 MenuContainer
-============= extends 
+=============
+extends 
 
 
 
@@ -12,7 +13,7 @@ MenuContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -22,21 +23,21 @@ Properties
 
 .e
 --
-Type: 
+
 
 .. _MenuContainer.i:
 
 
 .i
 --
-Type: 
+
 
 .. _MenuContainer.o:
 
 
 .o
 --
-Type: 
+
 
 
 Methods

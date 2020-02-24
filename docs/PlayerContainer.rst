@@ -1,6 +1,7 @@
 ===============
 PlayerContainer
-=============== extends 
+===============
+extends 
 
 
 
@@ -12,10 +13,10 @@ PlayerContainer
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 
 Properties
@@ -25,161 +26,161 @@ Properties
 
 .isLocal
 --------
-Type: 
+
 
 .. _PlayerContainer.playerId:
 
 
 .playerId
 ---------
-Type: 
+
 
 .. _PlayerContainer.critterId:
 
 
 .critterId
 ----------
-Type: 
+
 
 .. _PlayerContainer.isMoving:
 
 
 .isMoving
 ---------
-Type: 
+
 
 .. _PlayerContainer.animation:
 
 
 .animation
 ----------
-Type: 
+
 
 .. _PlayerContainer.speed:
 
 
 .speed
 ------
-Type: 
+
 
 .. _PlayerContainer.extra:
 
 
 .extra
 ------
-Type: 
+
 
 .. _PlayerContainer.x:
 
 
 .x
 --
-Type: 
+
 
 .. _PlayerContainer.y:
 
 
 .y
 --
-Type: 
+
 
 .. _PlayerContainer.z:
 
 
 .z
 --
-Type: 
+
 
 .. _PlayerContainer.r:
 
 
 .r
 --
-Type: 
+
 
 .. _PlayerContainer.direction:
 
 
 .direction
 ----------
-Type: 
+
 
 .. _PlayerContainer.targetX:
 
 
 .targetX
 --------
-Type: 
+
 
 .. _PlayerContainer.targetY:
 
 
 .targetY
 --------
-Type: 
+
 
 .. _PlayerContainer.critter:
 
 
 .critter
 --------
-Type: 
+
 
 .. _PlayerContainer.critter:
 
 
 .critter
 --------
-Type: 
+
 
 .. _PlayerContainer.direction:
 
 
 .direction
 ----------
-Type: 
+
 
 .. _PlayerContainer.z:
 
 
 .z
 --
-Type: 
+
 
 .. _PlayerContainer.isMoving:
 
 
 .isMoving
 ---------
-Type: 
+
 
 .. _PlayerContainer.targetX:
 
 
 .targetX
 --------
-Type: 
+
 
 .. _PlayerContainer.targetY:
 
 
 .targetY
 --------
-Type: 
+
 
 .. _PlayerContainer.tween:
 
 
 .tween
 ------
-Type: 
+
 
 .. _PlayerContainer.isMoving:
 
 
 .isMoving
 ---------
-Type: 
+
 
 
 Methods
@@ -197,10 +198,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _PlayerContainer.updateRotation:
 
@@ -215,10 +216,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _PlayerContainer.updateState:
 
@@ -233,10 +234,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _PlayerContainer.updateGear:
 
@@ -251,10 +252,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _PlayerContainer.updateLayer:
 
@@ -269,10 +270,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _PlayerContainer.remove:
 
@@ -287,10 +288,10 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
 .. _PlayerContainer.moveTo:
 
@@ -305,8 +306,8 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 
    * - e
-     - `Object <Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
      - 

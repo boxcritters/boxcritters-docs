@@ -1,15 +1,15 @@
 /* global env */
 exports.publish = publish;
 
-var logger = require('jsdoc/util/logger');
-var helper = require('jsdoc/util/templateHelper');
-var path = require('canonical-path');
-var _ = require('lodash');
-var deasync = require('deasync');
-var fs = require('fs');
-var mkdirp = require('mkdirp');
-var util = require('./util');
-var async = require('async');
+var logger = require("jsdoc/util/logger");
+var helper = require("jsdoc/util/templateHelper");
+var path = require("canonical-path");
+var _ = require("lodash");
+var deasync = require("deasync");
+var fs = require("fs");
+var mkdirp = require("mkdirp");
+var util = require("./util");
+var async = require("async");
 
 var context;
 
@@ -20,97 +20,124 @@ var context;
  * @return {undefined}
  */
 function publish(taffyData, options, tutorials) {
-  logger.debug('Tutorials', tutorials);
-  logger.debug('Options', options);
+	logger.debug("Tutorials", tutorials);
+	logger.debug("Options", options);
 
-  // Use .rst as default extension
-  helper.fileExtension = '.rst';
+	// Use .rst as default extension
+	helper.fileExtension = ".rst";
 
-  // README.rst must be kept as it is.
-  var readme = _.find(env.opts._, /README.rst/);
-  if (readme && !fs.lstatSync(readme).isDirectory()) {
-    logger.debug('Load README.rst file:', readme);
-    try {
-      options.readme = fs.readFileSync(readme);
-    } catch (e) {
-      logger.debug('No valid README.rst file found.');
-    }
-  }
+	// README.rst must be kept as it is.
+	var readme = _.find(env.opts._, /README.rst/);
+	if (readme && !fs.lstatSync(readme).isDirectory()) {
+		logger.debug("Load README.rst file:", readme);
+		try {
+			options.readme = fs.readFileSync(readme);
+		} catch (e) {
+			logger.debug("No valid README.rst file found.");
+		}
+	}
 
-  // define a global context that should be available by all function
-  context = _.extend({
-    data: taffyData
-  }, options);
+	// define a global context that should be available by all function
+	context = _.extend(
+		{
+			data: taffyData
+		},
+		options
+	);
 
-  // Augment data with needed informations
-  context.data().each(registerLink);
+	// Augment data with needed informations
+	context.data().each(registerLink);
 
-  _.each(helper.find(context.data, {kind: 'function'}), improveFunc);
-  _.each(helper.find(context.data, {kind: 'member'}), improveFunc);
+	_.each(helper.find(context.data, { kind: "function" }), improveFunc);
+	_.each(helper.find(context.data, { kind: "member" }), improveFunc);
+	_.each(helper.find(context.data, { kind: "class" }), improveFunc);
 
-  /**
-   * Write the function signature for the current function doclet.
-   *
-   * @param  {object} doclet function doclet
-   */
-  function improveFunc(doclet) {
-    doclet.signature = doclet.name + '(';
-    _.each(doclet.params, function(p, i) {
-      if (!(p && p.type && p.type.names)) {
-        logger.debug('Bad parameter', p, doclet.longname);
-        return;
-      }
-      p.signature = ':param ' +
-        p.type && p.type.names && p.type.names.join('|');
-      p.signature += ' ' + p.name;
+	/**
+	 * Write the function signature for the current function doclet.
+	 *
+	 * @param  {object} doclet function doclet
+	 */
+	function improveFunc(doclet) {
+		doclet.signature = doclet.name + "(";
 
-      if (p.optional) {
-        doclet.signature += '[';
-      }
-      if (i > 0) {
-        doclet.signature += ', ';
-      }
-      doclet.signature += p.name;
-      if (p.optional) {
-        doclet.signature += ']';
-      }
-      return p.name;
-    });
-    doclet.signature += ')';
+		if(doclet.type) LinkTypes([doclet])
+		if(doclet.params&&doclet.params.length>0) LinkTypes(doclet.params);
+		if(doclet.returns&&doclet.returns.length>0) LinkTypes(doclet.returns);
 
-    _.each(doclet.returns, function(r) {
-      if (!(r && r.type && r.type.names)) {
-        logger.debug('Bad return', r, doclet.longname);
-        return;
-      }
-      r.signature = ':return ' +
-        r.type && r.type.names && r.type.names.join('|');
-    });
-  }
+		_.each(doclet.params, function (p, i) {
+			if (!(p && p.type && p.type.names)) {
+				logger.debug("Bad parameter", p, doclet.longname);
+				return;
+			}
+			p.signature =
+				":param " + p.type && p.type.names && p.type.names.join("|");
+			p.signature += " " + p.name;
 
-  // build the list of page generation actions.
-  var actions = [];
-  actions.push(generate(
-    helper.getUniqueFilename('index'), require('./view-models/home')));
-  /*actions.push(generate(
-    'conf.py', require('./view-models/sphinx-config')));*/
-  var docletModel = require('./view-models/doclet');
-  context.data().each(function(doclet) {
-    var url = helper.longnameToUrl[doclet.longname];
-    if (url.indexOf('#') !== -1) {
-      logger.debug('URL Generator', url, doclet.longname);
-      url = helper.longnameToUrl[doclet.longname].split(/#/).pop();
-      logger.debug('URL Generated', url);
-    }
-    if (util.mainDocletKinds.indexOf(doclet.kind) !== -1) {
-      actions.push(generate(url, docletModel(doclet)));
-    }
-  });
+			if (p.optional) {
+				doclet.signature += "[";
+			}
+			if (i > 0) {
+				doclet.signature += ", ";
+			}
+			doclet.signature += p.name;
+			if (p.optional) {
+				doclet.signature += "]";
+			}
+			return p.name;
+		});
+		doclet.signature += ")";
 
-  // publish must be synchronous as the caller does not care about callbacks.
-  deasync(function(cb) {
-    async.parallel(actions, cb);
-  })();
+		_.each(doclet.returns, function (r) {
+			if (!(r && r.type && r.type.names)) {
+				logger.debug("Bad return", r, doclet.longname);
+				return;
+			}
+			r.signature =
+				":return " + r.type && r.type.names && r.type.names.join("|");
+		});
+	}
+
+	/**
+	 * @param {{type:{names:String[],links?:String},name:string,}} vars
+	 */
+	function LinkTypes(vars) {
+		_.each(vars,function(v) {
+			v.type.links = v.type.names.map(name=>{
+				var type = helper.find(context.data, {name});
+				type[0]?type=type[0]:null;
+				var link =
+				type.see&&type.see[0]||
+				type.rstLink||
+				`https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${name}`;
+				return link;
+			});
+		});
+	}
+
+	// build the list of page generation actions.
+	var actions = [];
+	actions.push(
+		generate(helper.getUniqueFilename("index"), require("./view-models/home"))
+	);
+	/*actions.push(generate(
+	  'conf.py', require('./view-models/sphinx-config')));*/
+	var docletModel = require("./view-models/doclet");
+	context.data().each(function (doclet) {
+		var url = helper.longnameToUrl[doclet.longname];
+		if (url.indexOf("#") !== -1) {
+			logger.debug("URL Generator", url, doclet.longname);
+			url = helper.longnameToUrl[doclet.longname].split(/#/).pop();
+			logger.debug("URL Generated", url);
+		}
+		if (util.mainDocletKinds.indexOf(doclet.kind) !== -1) {
+			actions.push(generate(url, docletModel(doclet)));
+		}
+	});
+
+	// publish must be synchronous as the caller does not care about callbacks.
+	deasync(function (cb) {
+		async.parallel(actions, cb);
+	})();
 }
 
 /**
@@ -121,17 +148,20 @@ function publish(taffyData, options, tutorials) {
  * @return {function}           the function that will build this part of the documentation
  */
 function generate(target, generator) {
-  return function(cb) {
-    logger.debug('generate', target);
-    generator(context, handleErrorCallback(function(err, data) {
-      if (err) {
-        logger.error('cannot generate ' + target);
-        logger.debug(err);
-        return;
-      }
-      write(target, data, cb);
-    }));
-  };
+	return function (cb) {
+		logger.debug("generate", target);
+		generator(
+			context,
+			handleErrorCallback(function (err, data) {
+				if (err) {
+					logger.error("cannot generate " + target);
+					logger.debug(err);
+					return;
+				}
+				write(target, data, cb);
+			})
+		);
+	};
 }
 
 /**
@@ -139,21 +169,21 @@ function generate(target, generator) {
  * @param  {object} doclet the doclet to create a link for
  */
 function registerLink(doclet) {
-  var url = helper.createLink(doclet);
-  helper.registerLink(doclet.longname, url);
-  doclet.rstLink = url.substr(0, url.length - helper.fileExtension.length);
+	var url = helper.createLink(doclet);
+	helper.registerLink(doclet.longname, url);
+	doclet.rstLink = url.substr(0, url.length - helper.fileExtension.length);
 
-  // Parent link
-  if (!doclet.memberof) {
-    return;
-  }
-  var parent;
-  parent = helper.find(context.data, {longname: doclet.memberof});
-  if (parent && parent.length > 0) {
-    doclet.parentRstLink = parent[0].rstLink;
-  }
-  // Reference code
-  doclet.rstReference = doclet.parentRstLink + '.' + doclet.name;
+	// Parent link
+	if (!doclet.memberof) {
+		return;
+	}
+	var parent;
+	parent = helper.find(context.data, { longname: doclet.memberof });
+	if (parent && parent.length > 0) {
+		doclet.parentRstLink = parent[0].rstLink;
+	}
+	// Reference code
+	doclet.rstReference = doclet.parentRstLink + "." + doclet.name;
 }
 
 /**
@@ -166,13 +196,16 @@ function registerLink(doclet) {
  * @return {undefined}
  */
 function write(relPath, data, cb) {
-  var target = path.join(context.destination, relPath);
+	var target = path.join(context.destination, relPath);
 
-  mkdirp(path.dirname(target), handleErrorCallback(function() {
-    fs.writeFileSync(target, data);
-    handleErrorCallback(cb)(null, target);
-    logger.debug('file written: %s', target);
-  }));
+	mkdirp(
+		path.dirname(target),
+		handleErrorCallback(function () {
+			fs.writeFileSync(target, data);
+			handleErrorCallback(cb)(null, target);
+			logger.debug("file written: %s", target);
+		})
+	);
 }
 
 /**
@@ -181,13 +214,13 @@ function write(relPath, data, cb) {
  * @return {any}         the result of cb
  */
 function handleErrorCallback(cb) {
-  return function(err) {
-    if (err) {
-      logger.error(err);
-      return cb(err);
-    }
-    return cb.apply(this, arguments);
-  };
+	return function (err) {
+		if (err) {
+			logger.error(err);
+			return cb(err);
+		}
+		return cb.apply(this, arguments);
+	};
 }
 
 /**

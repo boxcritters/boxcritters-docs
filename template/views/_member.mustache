@@ -4,5 +4,5 @@
 {{/rstReference}}
 
 {{#h3}}.{{name}}{{/h3}}
-Type: {{#type.names}}`{{.}} <{{.}}>`{{/type.names}}
+{{#type}}Type: `{{#type.names}}{{.}}{{/type.names}} <{{#type.links}}{{.}}{{/type.links}}>`{{/type}}
 
