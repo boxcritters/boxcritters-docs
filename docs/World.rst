@@ -30,7 +30,7 @@ Type: `Player <Player>`
 
 .room
 -----
-Type: `Socket <https://socket.io/docs/client-api/#Socket>`
+Type: `Player <Player>`
 
 .. _World.data:
 
@@ -51,7 +51,7 @@ Type: `Socket <https://socket.io/docs/client-api/#Socket>`
 
 .stage
 ------
-
+Type: `StageContainer <global.rst#StageConta>`
 
 .. _World.data[undefined]:
 
