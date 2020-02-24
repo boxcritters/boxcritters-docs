@@ -15,6 +15,7 @@ Welcome to Box Critters's documentation!
    World
    Crumb
    Map
+   Player
    StageContainer
    
    :caption: Namespaces

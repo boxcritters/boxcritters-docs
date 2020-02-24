@@ -1,7 +1,7 @@
 ===
 Map
 ===
-extends 
+
 
 Represents a map of background and foreground elements
 
@@ -41,7 +41,7 @@ Properties
 
 .tileMap
 --------
-Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 
 .. _Map.triggers:
 
