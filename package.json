@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "jsdoc -t template -d docs client155.min.js"
+    "docs": "jsdoc -t node_modules/jsdoc-template/template -d docs client155.min.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,7 @@
   "homepage": "https://github.com/boxcritters/boxcritters-docs#readme",
   "devDependencies": {},
   "dependencies": {
-    "handlebars": "^4.7.3",
     "jsdoc": "^3.6.3",
-    "jsdoc-sphinx": "0.0.6"
+    "jsdoc-sphinx": "github:boxcritters/jsdoc-template"
   }
 }

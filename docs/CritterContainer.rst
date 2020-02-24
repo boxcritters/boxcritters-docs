@@ -102,7 +102,7 @@ Type: `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 .i
 --
-Type: `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
+
 
 .. _CritterContainer.bodyContainer:
 
