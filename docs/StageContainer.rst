@@ -1,7 +1,7 @@
 ==============
 StageContainer
 ==============
-extends :doc:`Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`
+extends `Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`_
 
 
 Constructor
@@ -14,10 +14,10 @@ Constructor
      - Type
      - Description
    * - t
-     - :doc:`HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
+     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
      - canvas element to display the game in
    * - e
-     - :doc:`Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 
 Properties
@@ -27,14 +27,14 @@ Properties
 
 .width
 ------
-Type: `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
+Type: :doc:`Number`_
 
 .. _StageContainer.height:
 
 
 .height
 -------
-Type: `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
+Type: :doc:`Number`_
 
 .. _StageContainer.i:
 
@@ -83,7 +83,7 @@ Methods
      - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
      - canvas element to display the game in
    * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 .. _StageContainer.addMenu:
 
@@ -101,7 +101,7 @@ Methods
      - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
      - canvas element to display the game in
    * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 .. _StageContainer.addBeep:
 
@@ -119,5 +119,5 @@ Methods
      - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
      - canvas element to display the game in
    * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 

@@ -13,9 +13,9 @@
      - Description
 {{#doclet.params}}
    * - {{name}}
-     - `{{#type.names}}{{.}}{{/type.names}}{{#type.link}} <{{.}}>{{/type.link}}`_
+     - {{^type.link}}:doc:{{/type.link}}`{{#type.names}}{{.}}{{/type.names}}{{#type.link}} <{{.}}>{{/type.link}}`_
      - {{description}}
 {{/doclet.params}}
 {{#returns}}
-Returns: `{{#type.names}}{{.}}{{/type.names}}{{#type.link}} <{{.}}>{{/type.link}}{{^type.link}} <{{type.names}}>{{/type.link}}`_ {{signature}} {{description}}
+Returns: {{^type.link}}:doc:{{/type.link}}`{{#type.names}}{{.}}{{/type.names}}{{#type.link}} <{{.}}>{{/type.link}}`_ {{signature}} {{description}}
 {{/returns}}

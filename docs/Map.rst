@@ -14,7 +14,7 @@ Constructor
      - Type
      - Description
    * - t
-     - :doc:`Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 
 Properties
@@ -63,7 +63,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 .. _Map.getTrigger:
 
@@ -78,7 +78,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 .. _Map.getLayer:
 
@@ -93,7 +93,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
 .. _Map.new:
 
@@ -108,5 +108,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+     - :doc:`Object`_
      - 
