@@ -23,14 +23,14 @@ Properties
 
 .player
 -------
-Type: `Player <Player>`
+Type: `Player`_
 
 .. _World.room:
 
 
 .room
 -----
-Type: `Player <Player>`
+Type: `Player`_
 
 .. _World.data:
 
@@ -51,7 +51,7 @@ Type: `Player <Player>`
 
 .stage
 ------
-Type: `StageContainer <StageContainer>`
+Type: `StageContainer`_
 
 .. _World.data[undefined]:
 
@@ -114,7 +114,7 @@ Type: `StageContainer <StageContainer>`
 
 ._events
 --------
-Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 
 Methods
@@ -132,7 +132,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getData:
 
@@ -147,7 +147,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getItemData:
 
@@ -162,7 +162,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getCritterData:
 
@@ -177,7 +177,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.updatePlayer:
 
@@ -192,7 +192,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getPlayer:
 
@@ -207,7 +207,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.handleSocket:
 
@@ -222,7 +222,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.handleLogin:
 
@@ -237,7 +237,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.handleJoinRoom:
 
@@ -252,7 +252,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.login:
 
@@ -267,7 +267,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.logout:
 
@@ -282,7 +282,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.joinRoom:
 
@@ -297,7 +297,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendMessage:
 
@@ -312,7 +312,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendCode:
 
@@ -327,7 +327,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendMove:
 
@@ -342,7 +342,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendTrigger:
 
@@ -357,7 +357,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.updateData:
 
@@ -372,7 +372,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getData:
 
@@ -387,7 +387,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getItemData:
 
@@ -402,7 +402,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getCritterData:
 
@@ -417,7 +417,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.updatePlayer:
 
@@ -432,7 +432,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.getPlayer:
 
@@ -447,7 +447,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.handleSocket:
 
@@ -462,7 +462,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.handleLogin:
 
@@ -477,7 +477,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.handleJoinRoom:
 
@@ -492,7 +492,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.login:
 
@@ -507,7 +507,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.logout:
 
@@ -522,7 +522,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.joinRoom:
 
@@ -537,7 +537,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendMessage:
 
@@ -552,7 +552,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendCode:
 
@@ -567,7 +567,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendMove:
 
@@ -582,7 +582,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.sendTrigger:
 
@@ -597,7 +597,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.on:
 
@@ -612,7 +612,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _World.emit:
 
@@ -627,5 +627,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 

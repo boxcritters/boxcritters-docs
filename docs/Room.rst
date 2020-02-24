@@ -90,7 +90,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _Room.getPlayer:
 
@@ -105,7 +105,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _Room.removePlayer:
 
@@ -120,7 +120,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _Room.updatePlayer:
 
@@ -135,5 +135,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 

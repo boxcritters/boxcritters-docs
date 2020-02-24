@@ -90,7 +90,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _MonsterContainer.addItem:
 
@@ -105,7 +105,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _MonsterContainer.removeItem:
 
@@ -120,7 +120,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _MonsterContainer.updateGear:
 
@@ -135,7 +135,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _MonsterContainer.updateState:
 
@@ -150,7 +150,7 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 .. _MonsterContainer.remove:
 
@@ -165,5 +165,5 @@ Methods
      - Type
      - Description
    * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 

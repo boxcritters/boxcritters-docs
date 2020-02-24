@@ -20,7 +20,7 @@ Properties
 
 ._events
 --------
-Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
+Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
 
 .. _GameObject._events[undefined]:
 
