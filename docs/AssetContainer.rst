@@ -1,7 +1,7 @@
 ==============
 AssetContainer
 ==============
-extends `Container <https://www.createjs.com/docs/easeljs/classes/Container.html>`_
+extends :doc:`Container`
 
 Contains Assets
 
@@ -78,14 +78,14 @@ Type: `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 .edit
 -----
-Type: `Shape <https://www.createjs.com/docs/easeljs/classes/Shape.html>`_
+Type: `Shape <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Shape>`_
 
 .. _AssetContainer.hitArea:
 
 
 .hitArea
 --------
-Type: `Shape <https://www.createjs.com/docs/easeljs/classes/Shape.html>`_
+Type: `Shape <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Shape>`_
 
 .. _AssetContainer.regX:
 

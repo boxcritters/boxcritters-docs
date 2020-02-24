@@ -37,7 +37,7 @@ Properties
 
 .mc
 ---
-Type: `Container <https://www.createjs.com/docs/easeljs/classes/Container.html>`_
+Type: :doc:`Container`_
 
 .. _BeepItem.e:
 

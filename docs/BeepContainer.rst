@@ -1,7 +1,7 @@
 =============
 BeepContainer
 =============
-extends `Container <https://www.createjs.com/docs/easeljs/classes/Container.html>`_
+extends :doc:`Container`
 
 Contains a beep
 

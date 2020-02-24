@@ -21,6 +21,7 @@ Welcome to Box Critters's documentation!
    BalloonContainer
    BeepContainer
    BeepItem
+   CritterContainer
    StageContainer
    
    :caption: Namespaces
