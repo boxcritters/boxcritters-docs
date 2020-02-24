@@ -20,6 +20,7 @@ Welcome to Box Critters's documentation!
    AssetContainer
    BalloonContainer
    BeepContainer
+   BeepItem
    StageContainer
    
    :caption: Namespaces
