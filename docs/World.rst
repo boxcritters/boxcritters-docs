@@ -1,7 +1,7 @@
 =====
 World
 =====
-extends `GameObject <GameObject>`_
+extends :doc:`GameObject`_
 Represents the world of the game and contains everything in the game
 
 Constructor
@@ -38,7 +38,7 @@ Properties
 
 .stage
 ------
-Type: `StageContainer <StageContainer>`_
+Type: :doc:`StageContainer`_
 
 .. _World.data[undefined]:
 

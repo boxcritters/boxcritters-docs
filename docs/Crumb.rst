@@ -14,7 +14,7 @@ Constructor
      - Type
      - Description
    * - t
-     - :doc:`Object`_
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
 
 Properties
@@ -98,5 +98,5 @@ Methods
      - Type
      - Description
    * - t
-     - :doc:`Object`_
+     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
      - 
