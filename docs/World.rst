@@ -1,7 +1,7 @@
 =====
 World
 =====
-extends :doc:`GameObject <GameObject>`_
+extends :doc:`GameObject <GameObject>`
 Represents the world of the game and contains everything in the game
 
 Constructor

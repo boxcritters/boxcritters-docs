@@ -1,7 +1,7 @@
 ==============
 StageContainer
 ==============
-extends :doc:`Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`_
+extends :doc:`Stage <https://www.createjs.com/docs/easeljs/classes/Stage.html>`
 
 
 Constructor

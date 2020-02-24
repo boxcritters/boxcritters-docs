@@ -1,7 +1,7 @@
 ==========
 GameObject
 ==========
-extends :doc:`Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+extends :doc:`Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`
 Represents an object of the game
 
 Constructor
