@@ -80,12 +80,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - canvas element to display the game in
-   * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
 .. _StageContainer.addMenu:
 
 .addMenu()
@@ -98,12 +92,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - canvas element to display the game in
-   * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
 .. _StageContainer.addBeep:
 
 .addBeep()
@@ -116,9 +104,3 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - canvas element to display the game in
-   * - e
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 

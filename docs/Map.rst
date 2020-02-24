@@ -72,18 +72,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileSize
-     - `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
-     - 
-   * - t.tileMap
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileTriggers
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
-     - 
 .. _Map.getTrigger:
 
 .getTrigger()
@@ -96,18 +84,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileSize
-     - `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
-     - 
-   * - t.tileMap
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileTriggers
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
-     - 
 .. _Map.getLayer:
 
 .getLayer()
@@ -120,18 +96,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileSize
-     - `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
-     - 
-   * - t.tileMap
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileTriggers
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
-     - 
 .. _Map.new:
 
 .new()
@@ -144,15 +108,3 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileSize
-     - `Number <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`_
-     - 
-   * - t.tileMap
-     - `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
-     - 
-   * - t.tileTriggers
-     - `Array.<Object> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array.<Object>>`_
-     - 

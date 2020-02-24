@@ -112,9 +112,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getData:
 
 .getData()
@@ -127,9 +124,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getItemData:
 
 .getItemData()
@@ -142,9 +136,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getCritterData:
 
 .getCritterData()
@@ -157,9 +148,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.updatePlayer:
 
 .updatePlayer()
@@ -172,9 +160,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getPlayer:
 
 .getPlayer()
@@ -187,9 +172,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.handleSocket:
 
 .handleSocket()
@@ -202,9 +184,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.handleLogin:
 
 .handleLogin()
@@ -217,9 +196,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.handleJoinRoom:
 
 .handleJoinRoom()
@@ -232,9 +208,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.login:
 
 .login()
@@ -247,9 +220,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.logout:
 
 .logout()
@@ -262,9 +232,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.joinRoom:
 
 .joinRoom()
@@ -277,9 +244,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendMessage:
 
 .sendMessage()
@@ -292,9 +256,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendCode:
 
 .sendCode()
@@ -307,9 +268,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendMove:
 
 .sendMove()
@@ -322,9 +280,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendTrigger:
 
 .sendTrigger()
@@ -337,9 +292,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.updateData:
 
 .updateData()
@@ -352,9 +304,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getData:
 
 .getData()
@@ -367,9 +316,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getItemData:
 
 .getItemData()
@@ -382,9 +328,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getCritterData:
 
 .getCritterData()
@@ -397,9 +340,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.updatePlayer:
 
 .updatePlayer()
@@ -412,9 +352,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.getPlayer:
 
 .getPlayer()
@@ -427,9 +364,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.handleSocket:
 
 .handleSocket()
@@ -442,9 +376,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.handleLogin:
 
 .handleLogin()
@@ -457,9 +388,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.handleJoinRoom:
 
 .handleJoinRoom()
@@ -472,9 +400,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.login:
 
 .login()
@@ -487,9 +412,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.logout:
 
 .logout()
@@ -502,9 +424,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.joinRoom:
 
 .joinRoom()
@@ -517,9 +436,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendMessage:
 
 .sendMessage()
@@ -532,9 +448,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendCode:
 
 .sendCode()
@@ -547,9 +460,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendMove:
 
 .sendMove()
@@ -562,9 +472,6 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 
 .. _World.sendTrigger:
 
 .sendTrigger()
@@ -577,6 +484,3 @@ Methods
    * - Parameter
      - Type
      - Description
-   * - t
-     - `HTMLCanvasElement <https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement>`_
-     - 

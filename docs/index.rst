@@ -16,6 +16,7 @@ Welcome to Box Critters's documentation!
    Crumb
    Map
    Player
+   Room
    StageContainer
    
    :caption: Namespaces
