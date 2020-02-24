@@ -21,10 +21,14 @@ Beep
 Properties
 ==========
 .. _Beep.width:
+
+
 .width
 ------
 Type: 
 .. _Beep.height:
+
+
 .height
 -------
 Type: 
@@ -32,11 +36,12 @@ Type:
 Methods
 =======
 .. _Beep.handleSocket:
+
 .handleSocket()
 ---------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -52,11 +57,12 @@ Methods
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Beep.addMessage:
+
 .addMessage()
 -------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -72,11 +78,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Beep.showScreen:
+
 .showScreen()
 -------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 

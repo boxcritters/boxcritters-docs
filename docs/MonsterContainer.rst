@@ -18,34 +18,50 @@ MonsterContainer
 Properties
 ==========
 .. _MonsterContainer.scaleX:
+
+
 .scaleX
 -------
 Type: 
 .. _MonsterContainer.scaleY:
+
+
 .scaleY
 -------
 Type: 
 .. _MonsterContainer.framerate:
+
+
 .framerate
 ----------
 Type: 
 .. _MonsterContainer.loop:
+
+
 .loop
 -----
 Type: 
 .. _MonsterContainer.currentDirection:
+
+
 .currentDirection
 -----------------
 Type: 
 .. _MonsterContainer.e:
+
+
 .e
 --
 Type: 
 .. _MonsterContainer.sprite:
+
+
 .sprite
 -------
 Type: 
 .. _MonsterContainer.currentDirection:
+
+
 .currentDirection
 -----------------
 Type: 
@@ -53,11 +69,12 @@ Type:
 Methods
 =======
 .. _MonsterContainer.updateDirection:
+
 .updateDirection()
 ------------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -70,11 +87,12 @@ Methods
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _MonsterContainer.addItem:
+
 .addItem()
 ----------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -87,11 +105,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _MonsterContainer.removeItem:
+
 .removeItem()
 -------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -104,11 +123,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _MonsterContainer.updateGear:
+
 .updateGear()
 -------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -121,11 +141,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _MonsterContainer.updateState:
+
 .updateState()
 --------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -138,11 +159,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _MonsterContainer.remove:
+
 .remove()
 ---------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 

@@ -18,10 +18,14 @@ BalloonContainer
 Properties
 ==========
 .. _BalloonContainer.x:
+
+
 .x
 --
 Type: 
 .. _BalloonContainer.y:
+
+
 .y
 --
 Type: 
@@ -29,11 +33,12 @@ Type:
 Methods
 =======
 .. _BalloonContainer.showMessage:
+
 .showMessage(t)
 ---------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 

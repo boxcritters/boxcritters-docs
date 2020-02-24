@@ -18,70 +18,104 @@ Player
 Properties
 ==========
 .. _Player.playerId:
+
+
 .playerId
 ---------
 Type: 
 .. _Player.nickname:
+
+
 .nickname
 ---------
 Type: 
 .. _Player.critterId:
+
+
 .critterId
 ----------
 Type: 
 .. _Player.inventory:
+
+
 .inventory
 ----------
 Type: 
 .. _Player.friends:
+
+
 .friends
 --------
 Type: 
 .. _Player.gear:
+
+
 .gear
 -----
 Type: 
 .. _Player.def:
+
+
 .def
 ----
 Type: 
 .. _Player.str:
+
+
 .str
 ----
 Type: 
 .. _Player.gems:
+
+
 .gems
 -----
 Type: 
 .. _Player.coins:
+
+
 .coins
 ------
 Type: 
 .. _Player.hp:
+
+
 .hp
 ---
 Type: 
 .. _Player.e:
+
+
 .e
 --
 Type: 
 .. _Player.gear:
+
+
 .gear
 -----
 Type: 
 .. _Player.critterId:
+
+
 .critterId
 ----------
 Type: 
 .. _Player.coins:
+
+
 .coins
 ------
 Type: 
 .. _Player.coins:
+
+
 .coins
 ------
 Type: 
 .. _Player.gear[undefined]:
+
+
 .gear[undefined]
 ----------------
 Type: 
@@ -89,11 +123,12 @@ Type:
 Methods
 =======
 .. _Player.getPlayerId:
+
 .getPlayerId()
 --------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -106,11 +141,12 @@ Methods
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.getCrumb:
+
 .getCrumb()
 -----------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -123,11 +159,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.updateData:
+
 .updateData(t)
 --------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -140,11 +177,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.getCoins:
+
 .getCoins()
 -----------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -157,11 +195,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.updateCoins:
+
 .updateCoins(t)
 ---------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -174,11 +213,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.updateGear:
+
 .updateGear(t)
 --------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -191,11 +231,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.addItem:
+
 .addItem(t)
 -----------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -208,11 +249,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.removeItem:
+
 .removeItem(t)
 --------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -225,11 +267,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.isItemActive:
+
 .isItemActive(t)
 ----------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -242,11 +285,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.getItemFromInventory:
+
 .getItemFromInventory(t)
 ------------------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -259,11 +303,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.handleMove:
+
 .handleMove()
 -------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -276,11 +321,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.handleStop:
+
 .handleStop()
 -------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -293,11 +339,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.on:
+
 .on(t, e)
 ---------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -310,11 +357,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _Player.emit:
+
 .emit(t)
 --------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 

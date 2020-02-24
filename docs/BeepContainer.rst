@@ -21,10 +21,14 @@ BeepContainer
 Properties
 ==========
 .. _BeepContainer.width:
+
+
 .width
 ------
 Type: 
 .. _BeepContainer.height:
+
+
 .height
 -------
 Type: 
@@ -32,11 +36,12 @@ Type:
 Methods
 =======
 .. _BeepContainer.show:
+
 .show(t)
 --------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -52,11 +57,12 @@ Methods
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _BeepContainer.alert:
+
 .alert(t, e)
 ------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -72,11 +78,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _BeepContainer.message:
+
 .message(t)
 -----------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -92,11 +99,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _BeepContainer.grant:
+
 .grant(t)
 ---------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 

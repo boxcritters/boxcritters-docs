@@ -24,22 +24,32 @@ LayerContainer
 Properties
 ==========
 .. _LayerContainer.layerId:
+
+
 .layerId
 --------
 Type: 
 .. _LayerContainer.room:
+
+
 .room
 -----
 Type: 
 .. _LayerContainer.o:
+
+
 .o
 --
 Type: 
 .. _LayerContainer.s:
+
+
 .s
 --
 Type: 
 .. _LayerContainer.a:
+
+
 .a
 --
 Type: 
@@ -47,11 +57,12 @@ Type:
 Methods
 =======
 .. _LayerContainer.addSprite:
+
 .addSprite(t, e)
 ----------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -70,11 +81,12 @@ Methods
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _LayerContainer.addGroup:
+
 .addGroup(t, e)
 ---------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -93,11 +105,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _LayerContainer.addEffect:
+
 .addEffect()
 ------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -116,11 +129,12 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
 .. _LayerContainer.updateSprite:
+
 .updateSprite()
 ---------------
 
 
-.. list-table:: Title
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
