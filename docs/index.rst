@@ -15,25 +15,7 @@ Welcome to Box Critters's documentation!
    World
    Crumb
    Map
-   Player
-   Room
-   AssetContainer
-   BalloonContainer
-   BeepContainer
-   BeepItem
-   CritterContainer
-   LayerContainer
-   MapContainer
-   MascotContainer
-   MenuContainer
-   MonsterContainer
-   NicknameContainer
-   PlayerContainer
-   RoomContainer
-   Inventory
-   Background
-   CoinsWidget
-   Beep
+   StageContainer
    
    :caption: Namespaces
    

@@ -64,6 +64,10 @@ function publish(taffyData, options, tutorials) {
 		if(doclet.params&&doclet.params.length>0) LinkTypes(doclet.params);
 		if(doclet.returns&&doclet.returns.length>0) LinkTypes(doclet.returns);
 
+		if(doclet.augments&&doclet.augments.length>0) {
+			doclet.augments = doclet.augments.map(a=>({type:{names:[a]}}));
+			LinkTypes(doclet.augments);
+		}
 		_.each(doclet.params, function (p, i) {
 			if (!(p && p.type && p.type.names)) {
 				logger.debug("Bad parameter", p, doclet.longname);

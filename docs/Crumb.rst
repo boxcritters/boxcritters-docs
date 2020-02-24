@@ -2,10 +2,11 @@
 Crumb
 =====
 extends 
+Data packets to be (sent to)or(recived from) the server
 
-
-
-.. list-table:: Title
+Constructor
+===========
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -86,8 +87,8 @@ Methods
 =======
 .. _Crumb.get:
 
-.get(t)
--------
+.get()
+------
 
 .. list-table::
    :widths: 25 25 50

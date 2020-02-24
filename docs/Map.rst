@@ -2,10 +2,11 @@
 Map
 ===
 extends 
+Represents a map of background and foreground elements
 
-
-
-.. list-table:: Title
+Constructor
+===========
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -51,8 +52,8 @@ Methods
 =======
 .. _Map.getTile:
 
-.getTile(t, e)
---------------
+.getTile()
+----------
 
 .. list-table::
    :widths: 25 25 50
@@ -66,8 +67,8 @@ Methods
      - 
 .. _Map.getTrigger:
 
-.getTrigger(t)
---------------
+.getTrigger()
+-------------
 
 .. list-table::
    :widths: 25 25 50
@@ -81,8 +82,8 @@ Methods
      - 
 .. _Map.getLayer:
 
-.getLayer(t)
-------------
+.getLayer()
+-----------
 
 .. list-table::
    :widths: 25 25 50
@@ -96,8 +97,8 @@ Methods
      - 
 .. _Map.new:
 
-.new(t, e)
-----------
+.new()
+------
 
 .. list-table::
    :widths: 25 25 50

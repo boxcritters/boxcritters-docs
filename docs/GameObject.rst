@@ -1,11 +1,12 @@
 ==========
 GameObject
 ==========
-extends :doc:`Object<./Object>`
+extends `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+Represents an object of the game
 
-
-
-.. list-table:: Title
+Constructor
+===========
+.. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
@@ -20,7 +21,7 @@ Properties
 
 ._events
 --------
-Type: `Object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object>`_
+
 
 .. _GameObject._events[undefined]:
 
@@ -34,8 +35,8 @@ Methods
 =======
 .. _GameObject.on:
 
-.on(t, e)
----------
+.on()
+-----
 
 .. list-table::
    :widths: 25 25 50
@@ -46,8 +47,8 @@ Methods
      - Description
 .. _GameObject.emit:
 
-.emit(t)
---------
+.emit()
+-------
 
 .. list-table::
    :widths: 25 25 50
