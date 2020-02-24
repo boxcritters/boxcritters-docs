@@ -23,12 +23,14 @@ Properties
 .x
 --
 Type: 
+
 .. _BalloonContainer.y:
 
 
 .y
 --
 Type: 
+
 
 Methods
 =======
@@ -50,3 +52,4 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

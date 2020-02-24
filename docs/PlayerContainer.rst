@@ -26,138 +26,161 @@ Properties
 .isLocal
 --------
 Type: 
+
 .. _PlayerContainer.playerId:
 
 
 .playerId
 ---------
 Type: 
+
 .. _PlayerContainer.critterId:
 
 
 .critterId
 ----------
 Type: 
+
 .. _PlayerContainer.isMoving:
 
 
 .isMoving
 ---------
 Type: 
+
 .. _PlayerContainer.animation:
 
 
 .animation
 ----------
 Type: 
+
 .. _PlayerContainer.speed:
 
 
 .speed
 ------
 Type: 
+
 .. _PlayerContainer.extra:
 
 
 .extra
 ------
 Type: 
+
 .. _PlayerContainer.x:
 
 
 .x
 --
 Type: 
+
 .. _PlayerContainer.y:
 
 
 .y
 --
 Type: 
+
 .. _PlayerContainer.z:
 
 
 .z
 --
 Type: 
+
 .. _PlayerContainer.r:
 
 
 .r
 --
 Type: 
+
 .. _PlayerContainer.direction:
 
 
 .direction
 ----------
 Type: 
+
 .. _PlayerContainer.targetX:
 
 
 .targetX
 --------
 Type: 
+
 .. _PlayerContainer.targetY:
 
 
 .targetY
 --------
 Type: 
+
 .. _PlayerContainer.critter:
 
 
 .critter
 --------
 Type: 
+
 .. _PlayerContainer.critter:
 
 
 .critter
 --------
 Type: 
+
 .. _PlayerContainer.direction:
 
 
 .direction
 ----------
 Type: 
+
 .. _PlayerContainer.z:
 
 
 .z
 --
 Type: 
+
 .. _PlayerContainer.isMoving:
 
 
 .isMoving
 ---------
 Type: 
+
 .. _PlayerContainer.targetX:
 
 
 .targetX
 --------
 Type: 
+
 .. _PlayerContainer.targetY:
 
 
 .targetY
 --------
 Type: 
+
 .. _PlayerContainer.tween:
 
 
 .tween
 ------
 Type: 
+
 .. _PlayerContainer.isMoving:
 
 
 .isMoving
 ---------
 Type: 
+
 
 Methods
 =======
@@ -182,6 +205,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _PlayerContainer.updateRotation:
 
 .updateRotation()
@@ -203,6 +227,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _PlayerContainer.updateState:
 
 .updateState()
@@ -224,6 +249,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _PlayerContainer.updateGear:
 
 .updateGear()
@@ -245,6 +271,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _PlayerContainer.updateLayer:
 
 .updateLayer()
@@ -266,6 +293,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _PlayerContainer.remove:
 
 .remove()
@@ -287,6 +315,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _PlayerContainer.moveTo:
 
 .moveTo()
@@ -308,3 +337,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

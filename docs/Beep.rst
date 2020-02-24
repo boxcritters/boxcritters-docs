@@ -26,12 +26,14 @@ Properties
 .width
 ------
 Type: 
+
 .. _Beep.height:
 
 
 .height
 -------
 Type: 
+
 
 Methods
 =======
@@ -56,6 +58,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Beep.addMessage:
 
 .addMessage()
@@ -77,6 +80,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Beep.showScreen:
 
 .showScreen()
@@ -98,3 +102,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

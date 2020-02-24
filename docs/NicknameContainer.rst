@@ -23,18 +23,21 @@ Properties
 .e
 --
 Type: 
+
 .. _NicknameContainer.x:
 
 
 .x
 --
 Type: 
+
 .. _NicknameContainer.y:
 
 
 .y
 --
 Type: 
+
 
 Methods
 =======

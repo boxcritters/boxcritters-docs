@@ -20,18 +20,21 @@ Properties
 .t
 --
 Type: 
+
 .. _CoinsWidget.e:
 
 
 .e
 --
 Type: 
+
 .. _CoinsWidget.i:
 
 
 .i
 --
 Type: 
+
 
 Methods
 =======

@@ -23,54 +23,63 @@ Properties
 .data
 -----
 Type: 
+
 .. _AssetContainer.name:
 
 
 .name
 -----
 Type: 
+
 .. _AssetContainer.name:
 
 
 .name
 -----
 Type: 
+
 .. _AssetContainer.x:
 
 
 .x
 --
 Type: 
+
 .. _AssetContainer.y:
 
 
 .y
 --
 Type: 
+
 .. _AssetContainer.edit:
 
 
 .edit
 -----
 Type: 
+
 .. _AssetContainer.hitArea:
 
 
 .hitArea
 --------
 Type: 
+
 .. _AssetContainer.regX:
 
 
 .regX
 -----
 Type: 
+
 .. _AssetContainer.regY:
 
 
 .regY
 -----
 Type: 
+
 
 Methods
 =======
@@ -92,3 +101,4 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

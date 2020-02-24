@@ -23,222 +23,259 @@ Properties
 .data
 -----
 Type: 
+
 .. _RoomContainer.name:
 
 
 .name
 -----
 Type: 
+
 .. _RoomContainer.width:
 
 
 .width
 ------
 Type: 
+
 .. _RoomContainer.height:
 
 
 .height
 -------
 Type: 
+
 .. _RoomContainer.scaleX:
 
 
 .scaleX
 -------
 Type: 
+
 .. _RoomContainer.scaleY:
 
 
 .scaleY
 -------
 Type: 
+
 .. _RoomContainer.maxLayer:
 
 
 .maxLayer
 ---------
 Type: 
+
 .. _RoomContainer.startx:
 
 
 .startx
 -------
 Type: 
+
 .. _RoomContainer.starty:
 
 
 .starty
 -------
 Type: 
+
 .. _RoomContainer.startz:
 
 
 .startz
 -------
 Type: 
+
 .. _RoomContainer.focusX:
 
 
 .focusX
 -------
 Type: 
+
 .. _RoomContainer.focusY:
 
 
 .focusY
 -------
 Type: 
+
 .. _RoomContainer.layers:
 
 
 .layers
 -------
 Type: 
+
 .. _RoomContainer.foreground:
 
 
 .foreground
 -----------
 Type: 
+
 .. _RoomContainer.playground:
 
 
 .playground
 -----------
 Type: 
+
 .. _RoomContainer.background:
 
 
 .background
 -----------
 Type: 
+
 .. _RoomContainer.balloons:
 
 
 .balloons
 ---------
 Type: 
+
 .. _RoomContainer.nicknames:
 
 
 .nicknames
 ----------
 Type: 
+
 .. _RoomContainer.map:
 
 
 .map
 ----
 Type: 
+
 .. _RoomContainer.symbols:
 
 
 .symbols
 --------
 Type: 
+
 .. _RoomContainer.effects:
 
 
 .effects
 --------
 Type: 
+
 .. _RoomContainer.spritesheet:
 
 
 .spritesheet
 ------------
 Type: 
+
 .. _RoomContainer.players:
 
 
 .players
 --------
 Type: 
+
 .. _RoomContainer.e:
 
 
 .e
 --
 Type: 
+
 .. _RoomContainer.i:
 
 
 .i
 --
 Type: 
+
 .. _RoomContainer.layers:
 
 
 .layers
 -------
 Type: 
+
 .. _RoomContainer.layers[undefined]:
 
 
 .layers[undefined]
 ------------------
 Type: 
+
 .. _RoomContainer.maxLayer:
 
 
 .maxLayer
 ---------
 Type: 
+
 .. _RoomContainer.players[undefined]:
 
 
 .players[undefined]
 -------------------
 Type: 
+
 .. _RoomContainer.x:
 
 
 .x
 --
 Type: 
+
 .. _RoomContainer.x:
 
 
 .x
 --
 Type: 
+
 .. _RoomContainer.y:
 
 
 .y
 --
 Type: 
+
 .. _RoomContainer.y:
 
 
 .y
 --
 Type: 
+
 .. _RoomContainer.focusX:
 
 
 .focusX
 -------
 Type: 
+
 .. _RoomContainer.focusY:
 
 
 .focusY
 -------
 Type: 
+
 .. _RoomContainer.scaleX:
 
 
 .scaleX
 -------
 Type: 
+
 .. _RoomContainer.scaleY:
 
 
 .scaleY
 -------
 Type: 
+
 
 Methods
 =======
@@ -260,6 +297,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.addForeground:
 
 .addForeground()
@@ -278,6 +316,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.addLayers:
 
 .addLayers()
@@ -296,6 +335,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.addEffect:
 
 .addEffect()
@@ -314,6 +354,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.addPlayer:
 
 .addPlayer()
@@ -332,6 +373,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.getPlayer:
 
 .getPlayer()
@@ -350,6 +392,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.removePlayer:
 
 .removePlayer()
@@ -368,6 +411,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.updatePlayer:
 
 .updatePlayer()
@@ -386,6 +430,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.getLayer:
 
 .getLayer()
@@ -404,6 +449,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.swapLayer:
 
 .swapLayer()
@@ -422,6 +468,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.addMessage:
 
 .addMessage()
@@ -440,6 +487,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.movePlayer:
 
 .movePlayer()
@@ -458,6 +506,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.addAnimations:
 
 .addAnimations()
@@ -476,6 +525,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.hideSprites:
 
 .hideSprites()
@@ -494,6 +544,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.showSprites:
 
 .showSprites()
@@ -512,6 +563,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.focus:
 
 .focus()
@@ -530,6 +582,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.zoom:
 
 .zoom()
@@ -548,6 +601,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.toggleNicknames:
 
 .toggleNicknames()
@@ -566,6 +620,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.toggleBalloons:
 
 .toggleBalloons()
@@ -584,6 +639,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _RoomContainer.edit:
 
 .edit()
@@ -602,3 +658,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

@@ -29,30 +29,35 @@ Properties
 .layerId
 --------
 Type: 
+
 .. _LayerContainer.room:
 
 
 .room
 -----
 Type: 
+
 .. _LayerContainer.o:
 
 
 .o
 --
 Type: 
+
 .. _LayerContainer.s:
 
 
 .s
 --
 Type: 
+
 .. _LayerContainer.a:
 
 
 .a
 --
 Type: 
+
 
 Methods
 =======
@@ -80,6 +85,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _LayerContainer.addGroup:
 
 .addGroup(t, e)
@@ -104,6 +110,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _LayerContainer.addEffect:
 
 .addEffect()
@@ -128,6 +135,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _LayerContainer.updateSprite:
 
 .updateSprite()
@@ -152,3 +160,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

@@ -23,30 +23,35 @@ Properties
 .data
 -----
 Type: 
+
 .. _MapContainer.activeTile:
 
 
 .activeTile
 -----------
 Type: 
+
 .. _MapContainer.tiles:
 
 
 .tiles
 ------
 Type: 
+
 .. _MapContainer.fills:
 
 
 .fills
 ------
 Type: 
+
 .. _MapContainer.activeTile:
 
 
 .activeTile
 -----------
 Type: 
+
 
 Methods
 =======
@@ -68,6 +73,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _MapContainer.addTile:
 
 .addTile()
@@ -86,3 +92,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

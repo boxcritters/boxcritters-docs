@@ -23,24 +23,28 @@ Properties
 .tileSize
 ---------
 Type: 
+
 .. _Map.tileMap:
 
 
 .tileMap
 --------
 Type: 
+
 .. _Map.triggers:
 
 
 .triggers
 ---------
 Type: 
+
 .. _Map.tileMap:
 
 
 .tileMap
 --------
 Type: 
+
 
 Methods
 =======
@@ -62,6 +66,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Map.getTrigger:
 
 .getTrigger(t)
@@ -80,6 +85,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Map.getLayer:
 
 .getLayer(t)
@@ -98,6 +104,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Map.new:
 
 .new(t, e)
@@ -116,3 +123,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

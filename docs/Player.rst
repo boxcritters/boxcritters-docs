@@ -23,102 +23,119 @@ Properties
 .playerId
 ---------
 Type: 
+
 .. _Player.nickname:
 
 
 .nickname
 ---------
 Type: 
+
 .. _Player.critterId:
 
 
 .critterId
 ----------
 Type: 
+
 .. _Player.inventory:
 
 
 .inventory
 ----------
 Type: 
+
 .. _Player.friends:
 
 
 .friends
 --------
 Type: 
+
 .. _Player.gear:
 
 
 .gear
 -----
 Type: 
+
 .. _Player.def:
 
 
 .def
 ----
 Type: 
+
 .. _Player.str:
 
 
 .str
 ----
 Type: 
+
 .. _Player.gems:
 
 
 .gems
 -----
 Type: 
+
 .. _Player.coins:
 
 
 .coins
 ------
 Type: 
+
 .. _Player.hp:
 
 
 .hp
 ---
 Type: 
+
 .. _Player.e:
 
 
 .e
 --
 Type: 
+
 .. _Player.gear:
 
 
 .gear
 -----
 Type: 
+
 .. _Player.critterId:
 
 
 .critterId
 ----------
 Type: 
+
 .. _Player.coins:
 
 
 .coins
 ------
 Type: 
+
 .. _Player.coins:
 
 
 .coins
 ------
 Type: 
+
 .. _Player.gear[undefined]:
 
 
 .gear[undefined]
 ----------------
 Type: 
+
 
 Methods
 =======
@@ -140,6 +157,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.getCrumb:
 
 .getCrumb()
@@ -158,6 +176,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.updateData:
 
 .updateData(t)
@@ -176,6 +195,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.getCoins:
 
 .getCoins()
@@ -194,6 +214,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.updateCoins:
 
 .updateCoins(t)
@@ -212,6 +233,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.updateGear:
 
 .updateGear(t)
@@ -230,6 +252,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.addItem:
 
 .addItem(t)
@@ -248,6 +271,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.removeItem:
 
 .removeItem(t)
@@ -266,6 +290,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.isItemActive:
 
 .isItemActive(t)
@@ -284,6 +309,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.getItemFromInventory:
 
 .getItemFromInventory(t)
@@ -302,6 +328,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.handleMove:
 
 .handleMove()
@@ -320,6 +347,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.handleStop:
 
 .handleStop()
@@ -338,6 +366,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.on:
 
 .on(t, e)
@@ -356,6 +385,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _Player.emit:
 
 .emit(t)
@@ -374,3 +404,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

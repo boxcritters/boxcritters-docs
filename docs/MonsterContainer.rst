@@ -23,48 +23,56 @@ Properties
 .scaleX
 -------
 Type: 
+
 .. _MonsterContainer.scaleY:
 
 
 .scaleY
 -------
 Type: 
+
 .. _MonsterContainer.framerate:
 
 
 .framerate
 ----------
 Type: 
+
 .. _MonsterContainer.loop:
 
 
 .loop
 -----
 Type: 
+
 .. _MonsterContainer.currentDirection:
 
 
 .currentDirection
 -----------------
 Type: 
+
 .. _MonsterContainer.e:
 
 
 .e
 --
 Type: 
+
 .. _MonsterContainer.sprite:
 
 
 .sprite
 -------
 Type: 
+
 .. _MonsterContainer.currentDirection:
 
 
 .currentDirection
 -----------------
 Type: 
+
 
 Methods
 =======
@@ -86,6 +94,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _MonsterContainer.addItem:
 
 .addItem()
@@ -104,6 +113,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _MonsterContainer.removeItem:
 
 .removeItem()
@@ -122,6 +132,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _MonsterContainer.updateGear:
 
 .updateGear()
@@ -140,6 +151,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _MonsterContainer.updateState:
 
 .updateState()
@@ -158,6 +170,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _MonsterContainer.remove:
 
 .remove()
@@ -176,3 +189,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

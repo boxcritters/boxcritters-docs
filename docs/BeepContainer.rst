@@ -26,12 +26,14 @@ Properties
 .width
 ------
 Type: 
+
 .. _BeepContainer.height:
 
 
 .height
 -------
 Type: 
+
 
 Methods
 =======
@@ -56,6 +58,7 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _BeepContainer.alert:
 
 .alert(t, e)
@@ -77,6 +80,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _BeepContainer.message:
 
 .message(t)
@@ -98,6 +102,7 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
 .. _BeepContainer.grant:
 
 .grant(t)
@@ -119,3 +124,4 @@ Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+

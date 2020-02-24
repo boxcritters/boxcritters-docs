@@ -23,54 +23,63 @@ Properties
 .playerId
 ---------
 Type: 
+
 .. _Crumb.nickname:
 
 
 .nickname
 ---------
 Type: 
+
 .. _Crumb.critterId:
 
 
 .critterId
 ----------
 Type: 
+
 .. _Crumb.gear:
 
 
 .gear
 -----
 Type: 
+
 .. _Crumb.rotation:
 
 
 .rotation
 ---------
 Type: 
+
 .. _Crumb.speed:
 
 
 .speed
 ------
 Type: 
+
 .. _Crumb.x:
 
 
 .x
 --
 Type: 
+
 .. _Crumb.y:
 
 
 .y
 --
 Type: 
+
 .. _Crumb.z:
 
 
 .z
 --
 Type: 
+
 
 Methods
 =======
@@ -92,3 +101,4 @@ Methods
      - 
 
 Returns: `void <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined>`_
+
