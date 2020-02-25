@@ -1,0 +1,30 @@
+{
+  "name": "boxcritters-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -t template -d docs client155.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxcritters/boxcritters-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boxcritters/boxcritters-docs/issues"
+  },
+  "homepage": "https://github.com/boxcritters/boxcritters-docs#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "handlebars": "^4.7.3",
+    "jsdoc": "^3.6.3",
+    "jsdoc-sphinx": "0.0.6"
+  }
+}
